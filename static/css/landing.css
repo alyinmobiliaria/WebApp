@@ -1,0 +1,4561 @@
+.Header-menu{
+	background: #2e2c32;
+	display: inline-block;
+	height: 43px;
+	left: 0;
+	line-height: 0em;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	position: fixed;
+	right: 0;
+	text-align: center;
+	text-decoration: none;
+	top: 0px;
+}
+.Header-menu1{
+	background: #2e2c32;
+	display: inline-block;
+	height: 43px;
+	left: 0;
+	line-height: 0em;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	position: fixed;
+	right: 0;
+	text-align: center;
+	text-decoration: none;
+	top: 43px;
+}
+.Header-menuList{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.Header-itemList1{
+	color: white;
+	display: inline-block;
+	margin-bottom: 0px;
+	margin-right: 0;
+	text-align: center;
+	text-decoration: none;
+	overflow: hidden;
+	padding-bottom: .9em;
+	padding-top: .9em;
+}
+.Header-itemList2{
+	color: white;
+	display: inline-block;
+	margin-bottom: 0px;
+	margin-right: 0;
+	text-align: center;
+	text-decoration: none;
+	overflow: hidden;
+	padding-bottom: .9em;
+	padding-top: .9em;
+}
+.Header-itemList3{
+	color: white;
+	display: inline-block;
+	margin-bottom: 0px;
+	margin-right: 0;
+	text-align: center;
+	text-decoration: none;
+	overflow: hidden;
+	padding-bottom: .9em;
+	padding-top: .9em;
+}
+.Header-itemList4{
+	color: white;
+	display: inline-block;
+	margin-bottom: 0px;
+	margin-right: 0;
+	text-align: center;
+	text-decoration: none;
+	overflow: hidden;
+	padding-bottom: .9em;
+	padding-top: .9em;
+}
+.Header-itemList1:hover{
+	background: black;
+}
+.Header-itemList2:hover{
+	background: black;
+}
+.Header-itemList3:hover{
+	background: black;
+}
+.Header-itemList4:hover{
+	background: black;
+}
+.Header-link{
+	color: white;
+	text-decoration: blink;
+}
+.Header-landing{
+	background-image: url("../images/portada.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 200px;
+	margin-top: 86px;
+	overflow: hidden; 
+	padding: 1.5em 0;
+	text-align: center;
+}
+.Header-image{
+	background: rgba(255, 255, 255, 0.38);
+	border: 5px solid black;
+	height: auto;
+	width: 200px;
+}
+.Header-imageDescription{
+	color: white;
+	font-size: 16px;
+}
+.Header-titleDeLanding{
+	color: white;
+	font-size: 20px;
+}
+.Section{
+	background-image: url("../images/landingimage4.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	margin-top: 0px;
+	overflow: hidden; 
+	padding: 0;
+	text-align: center;
+}
+.Section-verde{
+	background-image: url("../images/landingimage4.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	margin-top: 0px;
+	overflow: hidden; 
+	padding: 0;
+	text-align: center;
+}
+.Section-azul{
+	background-image: url("../images/landingimage4.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	margin-top: 0px;
+	overflow: hidden; 
+	padding: 0;
+	text-align: center;
+}
+.Section-amarillaCajaTitle img{
+	width: 100px;
+}
+.Section-verdeCajaTitle img{
+	width: 100px;
+}
+.Section-azulCajaTitle img{
+	width: 100px;
+}
+.Section-amarillaTitle{
+	color: #330000;
+	margin-bottom: 0px;
+}
+.Section-verdeTitle{
+	color: #330000;
+	margin-bottom: 0px;
+}
+.Section-azulTitle{
+	color: #330000;
+	margin-bottom: 0px;
+}
+.Section-amarillaServicios{
+	background: rgba(242, 246, 245, 0.58);	
+	top: 0px;
+}
+.Section-verdeServicios{
+	background: rgba(242, 246, 245, 0.58);
+	top: 0px;
+}
+.Section-azulServicios{
+	background: rgba(242, 246, 245, 0.58);
+	top: 0px;
+}
+.Section-listaDeServicios{
+	display: inline-block;
+	left: 0px;
+	overflow: hidden;
+	padding-left: 0px;
+	right: 0px;
+}
+.Section-servicio1Amarilla,
+.Section-servicio2Amarilla,
+.Section-servicio3Amarilla,
+.Section-servicio4Amarilla,
+.Section-servicio5Amarilla{	
+	color: white;
+	display: inline-block;
+	margin-bottom: 0px;
+	margin-right: 0;
+	text-align: center;
+	text-decoration: none;
+	padding-bottom: .9em;
+	padding-top: .9em;
+	right: 0;
+	left: 0;
+}
+.Section-servicio1Amarilla img,
+.Section-servicio2Amarilla img,
+.Section-servicio3Amarilla img,
+.Section-servicio4Amarilla img,
+.Section-servicio5Amarilla img{
+	width: 100px;
+}
+.Section-servicio1Verde,
+.Section-servicio2Verde,
+.Section-servicio3Verde,
+.Section-servicio4Verde,
+.Section-servicio5Verde{	
+	color: white;
+	display: inline-block;
+	margin-bottom: 0px;
+	margin-right: 0;
+	text-align: center;
+	text-decoration: none;
+	padding-bottom: .9em;
+	padding-top: .9em;
+	right: 0;
+	left: 0;
+}
+.Section-servicio1Verde img,
+.Section-servicio2Verde img,
+.Section-servicio3Verde img,
+.Section-servicio4Verde img,
+.Section-servicio5Verde img{
+	width: 100px;
+}
+.Section-servicio1Azul,
+.Section-servicio2Azul,
+.Section-servicio3Azul,
+.Section-servicio4Azul,
+.Section-servicio5Azul{	
+	color: white;
+	display: inline-block;
+	margin-bottom: 0px;
+	margin-right: 0;
+	text-align: center;
+	text-decoration: none;
+	padding-bottom: .9em;
+	padding-top: .9em;
+	right: 0;
+	left: 0;
+}
+.Section-servicio1Azul img,
+.Section-servicio2Azul img,
+.Section-servicio3Azul img,
+.Section-servicio4Azul img,
+.Section-servicio5Azul img{
+	width: 100px;
+}
+.Section-amarillaText{
+	color: #330000;
+	font-size: 18px;
+}
+.Section-verdeText{
+	color: #330000;
+	font-size: 18px;
+}
+.Section-azulText{
+	color: #330000;
+	font-size: 18px;
+}
+.Footer{
+	background-image: url("../images/footer.png");
+	/*background: rgba(128, 128, 128, 0.38);*/
+	border-color: #2e2c32;
+	border: 1px solid;
+	height: auto;
+	text-align: center;
+	overflow: hidden;
+	position: horizontal;
+}
+.Footer-form{
+	height: 220px;
+}
+.Footer-title{
+	background: #2e2c32; /*rgba(46, 44, 50, 0.38);*/
+	border-color: #b26500;
+	border: 2px solid;
+	border-radius: 0em 0em 0.5em 0.5em;
+	color: white;
+	margin-top: 0px;
+	padding: 1px;
+}
+.Footer-description{
+	color: white;
+}
+.Footer-link{
+	color: #b26500;
+	background: #ffc43a;
+	border-bottom: 3px solid #f39c12;
+	border-radius: 5px;
+	padding: 10px;
+	text-decoration: blink;
+}
+.Footer-input{
+	height: 20px;
+	margin-bottom: 5px;
+	resize: none;
+	width: 1000px;
+}
+.Footer-textarea{
+	height: 100px;
+	margin-bottom: 10px;
+	resize: none;
+	width: 1000px;
+}
+/* RESPONSIVE DESIGN */
+/* ALY */
+
+@media screen and (min-width:220px){
+	html{
+		height: auto;
+		width: 220px;
+	}
+	.Header-menu{
+		width: 220px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 220px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 100px;
+	}
+	.Header-itemList2{
+		width: 100px;
+	}
+	.Header-itemList3{
+		width: 100px;	
+	}
+	.Header-itemList4{
+		width: 100px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 220px;
+	}
+@media screen and (min-width:230px){
+	html{
+		height: auto;
+		width: 230px;
+	}
+	.Header-menu{
+		width: 230px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 230px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 110px;
+	}
+	.Header-itemList2{
+		width: 110px;
+	}
+	.Header-itemList3{
+		width: 110px;	
+	}
+	.Header-itemList4{
+		width: 110px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 230px;
+	}
+	.Perfil-textdescription{
+		font-size: 14px;
+	}
+@media screen and (min-width:240px){
+	html{
+		height: auto;
+		width: 240px;
+	}
+	.Header-menu{
+		width: 240px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 240px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 110px;
+	}
+	.Header-itemList2{
+		width: 110px;
+	}
+	.Header-itemList3{
+		width: 110px;	
+	}
+	.Header-itemList4{
+		width: 110px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 240px;
+	}
+	.Perfil-textdescription{
+		font-size: 14px;
+	}
+@media screen and (min-width:250px){
+	html{
+		height: auto;
+		width: 250px;
+	}
+	.Header-menu{
+		width: 250px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 250px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 120px;
+	}
+	.Header-itemList2{
+		width: 120px;
+	}
+	.Header-itemList3{
+		width: 120px;	
+	}
+	.Header-itemList4{
+		width: 120px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 250px;
+	}
+	.Perfil-textdescription{
+		font-size: 14px;
+	}
+@media screen and (min-width:260px){
+	html{
+		height: auto;
+		width: 260px;
+	}
+	.Header-menu{
+		width: 260px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 260px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 120px;
+	}
+	.Header-itemList2{
+		width: 120px;
+	}
+	.Header-itemList3{
+		width: 120px;	
+	}
+	.Header-itemList4{
+		width: 120px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 260px;
+	}
+	.Perfil-textdescription{
+		font-size: 14px;
+	}
+@media screen and (min-width:270px){
+	html{
+		height: auto;
+		width: 270px;
+	}
+	.Header-menu{
+		width: 270px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 270px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 130px;
+	}
+	.Header-itemList2{
+		width: 130px;
+	}
+	.Header-itemList3{
+		width: 130px;	
+	}
+	.Header-itemList4{
+		width: 130px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 270px;
+	}
+	.Perfil-textdescription{
+		font-size: 14px;
+	}
+@media screen and (min-width:280px){
+	html{
+		height: auto;
+		width: 280px;
+	}
+	.Header-menu{
+		width: 280px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 280px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 130px;
+	}
+	.Header-itemList2{
+		width: 130px;
+	}
+	.Header-itemList3{
+		width: 130px;	
+	}
+	.Header-itemList4{
+		width: 130px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 280px;
+	}
+	.Perfil-textdescription{
+		font-size: 14px;
+	}
+@media screen and (min-width:290px){
+	html{
+		height: auto;
+		width: 290px;
+	}
+	.Header-menu{
+		width: 290px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 290px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 140px;
+	}
+	.Header-itemList2{
+		width: 140px;
+	}
+	.Header-itemList3{
+		width: 140px;	
+	}
+	.Header-itemList4{
+		width: 140px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 290px;
+	}
+	.Perfil-textdescription{
+		font-size: 14px;
+	}
+@media screen and (min-width:300px){
+	html{
+		height: auto;
+		width: 300px;
+	}
+	.Header-menu{
+		width: 300px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 300px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 140px;
+	}
+	.Header-itemList2{
+		width: 140px;
+	}
+	.Header-itemList3{
+		width: 140px;	
+	}
+	.Header-itemList4{
+		width: 140px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 300px;
+	}
+	.Perfil-textdescription{
+		font-size: 16px;
+	}
+@media screen and (min-width:310px){
+	html{
+		height: auto;
+		width: 310px;
+	}
+	.Header-menu{
+		width: 310px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 310px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 140px;
+	}
+	.Header-itemList2{
+		width: 140px;
+	}
+	.Header-itemList3{
+		width: 140px;	
+	}
+	.Header-itemList4{
+		width: 140px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 310px;
+	}
+	.Perfil-textdescription{
+		font-size: 16px;
+	}
+@media screen and (min-width:320px){
+	html{
+		height: auto;
+		width: 320px;
+	}
+	.Header-menu{
+		width: 320px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 320px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 150px;
+	}
+	.Header-itemList2{
+		width: 150px;
+	}
+	.Header-itemList3{
+		width: 150px;	
+	}
+	.Header-itemList4{
+		width: 150px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 320px;
+	}
+	.Perfil-textdescription{
+		font-size: 16px;
+	}
+@media screen and (min-width:330px){
+	html{
+		height: auto;
+		width: 330px;
+	}
+	.Header-menu{
+		width: 330px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 330px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 160px;
+	}
+	.Header-itemList2{
+		width: 160px;
+	}
+	.Header-itemList3{
+		width: 160px;	
+	}
+	.Header-itemList4{
+		width: 160px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 330px;
+	}
+	.Perfil-textdescription{
+		font-size: 16px;
+	}
+@media screen and (min-width:340px){
+	html{
+		height: auto;
+		width: 340px;
+	}
+	.Header-menu{
+		width: 340px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 340px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 160px;
+	}
+	.Header-itemList2{
+		width: 160px;
+	}
+	.Header-itemList3{
+		width: 160px;	
+	}
+	.Header-itemList4{
+		width: 160px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 340px;
+	}
+	.Perfil-textdescription{
+		font-size: 16px;
+	}
+@media screen and (min-width:350px){
+	html{
+		height: auto;
+		width: 350px;
+	}
+	.Header-menu{
+		width: 350px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 350px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 170px;
+	}
+	.Header-itemList2{
+		width: 170px;
+	}
+	.Header-itemList3{
+		width: 170px;	
+	}
+	.Header-itemList4{
+		width: 170px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 350px;
+	}
+	.Perfil-textdescription{
+		font-size: 16px;
+	}
+@media screen and (min-width:360px){
+	html{
+		height: auto;
+		width: 360px;
+	}
+	.Header-menu{
+		width: 360px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 360px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 170px;
+	}
+	.Header-itemList2{
+		width: 170px;
+	}
+	.Header-itemList3{
+		width: 170px;	
+	}
+	.Header-itemList4{
+		width: 170px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 360px;
+	}
+	.Perfil-textdescription{
+		font-size: 16px;
+	}
+@media screen and (min-width:370px){
+	html{
+		height: auto;
+		width: 370px;
+	}
+	.Header-menu{
+		width: 370px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 370px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 180px;
+	}
+	.Header-itemList2{
+		width: 180px;
+	}
+	.Header-itemList3{
+		width: 180px;	
+	}
+	.Header-itemList4{
+		width: 180px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 370px;
+	}
+	.Perfil-textdescription{
+		font-size: 16px;
+	}
+@media screen and (min-width:380px){
+	html{
+		height: auto;
+		width: 380px;
+	}
+	.Header-menu{
+		width: 380px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 380px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 180px;
+	}
+	.Header-itemList2{
+		width: 180px;
+	}
+	.Header-itemList3{
+		width: 180px;	
+	}
+	.Header-itemList4{
+		width: 180px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 380px;
+	}
+	.Perfil-textdescription{
+		font-size: 16px;
+	}
+@media screen and (min-width:390px){
+	html{
+		height: auto;
+		width: 390px;
+	}
+	.Header-menu{
+		width: 390px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 390px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 190px;
+	}
+	.Header-itemList2{
+		width: 190px;
+	}
+	.Header-itemList3{
+		width: 190px;	
+	}
+	.Header-itemList4{
+		width: 190px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 390px;
+	}
+	.Perfil-textdescription{
+		font-size: 16px;
+	}
+@media screen and (min-width:400px){
+	html{
+		height: auto;
+		width: 400px;
+	}
+	.Header-menu{;
+		width: 400px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 400px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 190px;
+	}
+	.Header-itemList2{
+		width: 190px;
+	}
+	.Header-itemList3{
+		width: 190px;	
+	}
+	.Header-itemList4{
+		width: 190px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 400px;
+	}
+	.Perfil-textdescription{
+		font-size: 16px;
+	}
+@media screen and (min-width:410px){
+	html{
+		height: auto;
+		width: 410px;
+	}
+	.Header-menu{
+		width: 410px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 410px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 200px;
+	}
+	.Header-itemList2{
+		width: 200px;
+	}
+	.Header-itemList3{
+		width: 200px;	
+	}
+	.Header-itemList4{
+		width: 200px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 410px;
+	}
+	.Perfil-textdescription{
+		font-size: 16px;
+	}
+@media screen and (min-width:420px){
+	html{
+		height: auto;
+		width: 420px;
+	}
+	.Header-menu{
+		width: 420px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 420px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 200px;
+	}
+	.Header-itemList2{
+		width: 200px;
+	}
+	.Header-itemList3{
+		width: 200px;	
+	}
+	.Header-itemList4{
+		width: 200px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 420px;
+	}
+	.Perfil-textdescription{
+		font-size: 16px;
+	}
+@media screen and (min-width:430px){
+	html{
+		height: auto;
+		width: 430px;
+	}
+	.Header-menu{
+		width: 430px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 430px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 210px;
+	}
+	.Header-itemList2{
+		width: 210px;
+	}
+	.Header-itemList3{
+		width: 210px;	
+	}
+	.Header-itemList4{
+		width: 210px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 430px;
+	}
+	.Perfil-textdescription{
+		font-size: 16px;
+	}
+@media screen and (min-width:440px){
+	html{
+		height: auto;
+		width: 440px;
+	}
+	.Header-menu{
+		width: 440px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 440px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 210px;
+	}
+	.Header-itemList2{
+		width: 210px;
+	}
+	.Header-itemList3{
+		width: 210px;	
+	}
+	.Header-itemList4{
+		width: 210px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 440px;
+	}
+	.Perfil-textdescription{
+		font-size: 16px;
+	}
+@media screen and (min-width:450px){
+	html{
+		height: auto;
+		width: 450px;
+	}
+	.Header-menu{
+		width: 450px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 450px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 210px;
+	}
+	.Header-itemList2{
+		width: 210px;
+	}
+	.Header-itemList3{
+		width: 210px;	
+	}
+	.Header-itemList4{
+		width: 210px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 450px;
+	}
+	.Perfil-textdescription{
+		font-size: 16px;
+	}
+@media screen and (min-width:460px){
+	html{
+		height: auto;
+		width: 460px;
+	}
+	.Header-menu{
+		width: 460px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 460px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 220px;
+	}
+	.Header-itemList2{
+		width: 220px;
+	}
+	.Header-itemList3{
+		width: 220px;	
+	}
+	.Header-itemList4{
+		width: 220px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 460px;
+	}
+	.Perfil-textdescription{
+		font-size: 16px;
+	}
+@media screen and (min-width:470px){
+	html{
+		height: auto;
+		width: 470px;
+	}
+	.Header-menu{
+		width: 470px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 470px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 220px;
+	}
+	.Header-itemList2{
+		width: 220px;
+	}
+	.Header-itemList3{
+		width: 220px;	
+	}
+	.Header-itemList4{
+		width: 220px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 470px;
+	}
+	.Perfil-textdescription{
+		font-size: 16px;
+	}
+@media screen and (min-width:480px){
+	html{
+		height: auto;
+		width: 480px;
+	}
+	.Header-menu{
+		width: 480px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 480px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 230px;
+	}
+	.Header-itemList2{
+		width: 230px;
+	}
+	.Header-itemList3{
+		width: 230px;	
+	}
+	.Header-itemList4{
+		width: 230px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 480px;
+	}
+	.Perfil-textdescription{
+		font-size: 16px;
+	}
+@media screen and (min-width:490px){
+	html{
+		height: auto;
+		width: 490px;
+	}
+	.Header-menu{
+		width: 490px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 490px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 230px;
+	}
+	.Header-itemList2{
+		width: 230px;
+	}
+	.Header-itemList3{
+		width: 230px;	
+	}
+	.Header-itemList4{
+		width: 230px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 490px;
+	}
+	.Perfil-textdescription{
+		font-size: 16px;
+	}
+@media screen and (min-width:500px){
+	html{
+		height: auto;
+		width: 500px;
+	}
+	.Header-menu{
+		width: 500px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 500px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 240px;
+	}
+	.Header-itemList2{
+		width: 240px;
+	}
+	.Header-itemList3{
+		width: 240px;	
+	}
+	.Header-itemList4{
+		width: 240px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 500px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:510px){
+	html{
+		height: auto;
+		width: 510px;
+	}
+	.Header-menu{
+		width: 510px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 510px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 250px;
+	}
+	.Header-itemList2{
+		width: 250px;
+	}
+	.Header-itemList3{
+		width: 250px;	
+	}
+	.Header-itemList4{
+		width: 250px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 510px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:520px){
+	html{
+		height: auto;
+		width: 520px;
+	}
+	.Header-menu{
+		width: 520px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 520px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 250px;
+	}
+	.Header-itemList2{
+		width: 250px;
+	}
+	.Header-itemList3{
+		width: 250px;	
+	}
+	.Header-itemList4{
+		width: 250px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 520px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:530px){
+	html{
+		height: auto;
+		width: 530px;
+	}
+	.Header-menu{
+		width: 530px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 530px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 260px;
+	}
+	.Header-itemList2{
+		width: 260px;
+	}
+	.Header-itemList3{
+		width: 260px;	
+	}
+	.Header-itemList4{
+		width: 260px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 530px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:540px){
+	html{
+		height: auto;
+		width: 540px;
+	}
+	.Header-menu{
+		width: 540px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 540px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 260px;
+	}
+	.Header-itemList2{
+		width: 260px;
+	}
+	.Header-itemList3{
+		width: 260px;	
+	}
+	.Header-itemList4{
+		width: 260px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 540px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:550px){
+	html{
+		height: auto;
+		width: 550px;
+	}
+	.Header-menu{
+		width: 550px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 550px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 270px;
+	}
+	.Header-itemList2{
+		width: 270px;
+	}
+	.Header-itemList3{
+		width: 270px;	
+	}
+	.Header-itemList4{
+		width: 270px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 550px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:560px){
+	html{
+		height: auto;
+		width: 560px;
+	}
+	.Header-menu{
+		width: 560px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 560px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 260px;
+	}
+	.Header-itemList2{
+		width: 260px;
+	}
+	.Header-itemList3{
+		width: 260px;	
+	}
+	.Header-itemList4{
+		width: 260px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 560px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:570px){
+	html{
+		height: auto;
+		width: 570px;
+	}
+	.Header-menu{
+		width: 570px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 570px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 270px;
+	}
+	.Header-itemList2{
+		width: 270px;
+	}
+	.Header-itemList3{
+		width: 270px;	
+	}
+	.Header-itemList4{
+		width: 270px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 570px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:580px){
+	html{
+		height: auto;
+		width: 580px;
+	}
+	.Header-menu{
+		width: 580px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 580px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 270px;
+	}
+	.Header-itemList2{
+		width: 270px;
+	}
+	.Header-itemList3{
+		width: 270px;	
+	}
+	.Header-itemList4{
+		width: 270px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 580px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:590px){
+	html{
+		height: auto;
+		width: 590px;
+	}
+	.Header-menu{
+		width: 590px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 590px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 280px;
+	}
+	.Header-itemList2{
+		width: 280px;
+	}
+	.Header-itemList3{
+		width: 280px;	
+	}
+	.Header-itemList4{
+		width: 280px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 590px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:600px){
+	html{
+		height: auto;
+		width: 600px;
+	}
+	.Header-menu{
+		width: 600px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 600px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 290px;
+	}
+	.Header-itemList2{
+		width: 290px;
+	}
+	.Header-itemList3{
+		width: 290px;	
+	}
+	.Header-itemList4{
+		width: 290px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 600px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:610px){
+	html{
+		height: auto;
+		width: 610px;
+	}
+	.Header-menu{
+		width: 610px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 610px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 300px;
+	}
+	.Header-itemList2{
+		width: 300px;
+	}
+	.Header-itemList3{
+		width: 300px;	
+	}
+	.Header-itemList4{
+		width: 300px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 610px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:620px){
+	html{
+		height: auto;
+		width: 620px;
+	}
+	.Header-menu{
+		width: 620px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 620px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 300px;
+	}
+	.Header-itemList2{
+		width: 300px;
+	}
+	.Header-itemList3{
+		width: 300px;	
+	}
+	.Header-itemList4{
+		width: 300px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 620px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:630px){
+	html{
+		height: auto;
+		width: 630px;
+	}
+	.Header-menu{
+		width: 630px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 630px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 310px;
+	}
+	.Header-itemList2{
+		width: 310px;
+	}
+	.Header-itemList3{
+		width: 310px;	
+	}
+	.Header-itemList4{
+		width: 310px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 630px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:640px){
+	html{
+		height: auto;
+		width: 640px;
+	}
+	.Header-menu{
+		width: 640px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 640px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 310px;
+	}
+	.Header-itemList2{
+		width: 310px;
+	}
+	.Header-itemList3{
+		width: 310px;	
+	}
+	.Header-itemList4{
+		width: 310px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 640px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:650px){
+	html{
+		height: auto;
+		width: 650px;
+	}
+	.Header-menu{
+		width: 650px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 650px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 320px;
+	}
+	.Header-itemList2{
+		width: 320px;
+	}
+	.Header-itemList3{
+		width: 320px;	
+	}
+	.Header-itemList4{
+		width: 320px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 650px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:660px){
+	html{
+		height: auto;
+		width: 660px;
+	}
+	.Header-menu{
+		width: 660px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 660px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 320px;
+	}
+	.Header-itemList2{
+		width: 320px;
+	}
+	.Header-itemList3{
+		width: 320px;	
+	}
+	.Header-itemList4{
+		width: 320px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 660px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:670px){
+	html{
+		height: auto;
+		width: 670px;
+	}
+	.Header-menu{
+		width: 670px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 670px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 330px;
+	}
+	.Header-itemList2{
+		width: 330px;
+	}
+	.Header-itemList3{
+		width: 330px;	
+	}
+	.Header-itemList4{
+		width: 330px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 670px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:680px){
+	html{
+		height: auto;
+		width: 680px;
+	}
+	.Header-menu{
+		width: 680px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 680px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 330px;
+	}
+	.Header-itemList2{
+		width: 330px;
+	}
+	.Header-itemList3{
+		width: 330px;	
+	}
+	.Header-itemList4{
+		width: 330px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 680px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:690px){
+	html{
+		height: auto;
+		width: 690px;
+	}
+	.Header-menu{
+		width: 690px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 690px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 340px;
+	}
+	.Header-itemList2{
+		width: 340px;
+	}
+	.Header-itemList3{
+		width: 340px;	
+	}
+	.Header-itemList4{
+		width: 340px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 690px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:700px){
+	html{
+		height: auto;
+		width: 700px;
+	}
+	.Header-menu{
+		width: 700px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 700px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 340px;
+	}
+	.Header-itemList2{
+		width: 340px;
+	}
+	.Header-itemList3{
+		width: 340px;	
+	}
+	.Header-itemList4{
+		width: 340px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 700px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:710px){
+	html{
+		height: auto;
+		width: 710px;
+	}
+	.Header-menu{
+		width: 710px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 710px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 350px;
+	}
+	.Header-itemList2{
+		width: 350px;
+	}
+	.Header-itemList3{
+		width: 350px;	
+	}
+	.Header-itemList4{
+		width: 350px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 710px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:720px){
+	html{
+		height: auto;
+		width: 720px;
+	}
+	.Header-menu{
+		width: 720px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 720px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 350px;
+	}
+	.Header-itemList2{
+		width: 350px;
+	}
+	.Header-itemList3{
+		width: 350px;	
+	}
+	.Header-itemList4{
+		width: 350px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 720px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:730px){
+	html{
+		height: auto;
+		width: 730px;
+	}
+	.Header-menu{
+		width: 730px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 730px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 360px;
+	}
+	.Header-itemList2{
+		width: 360px;
+	}
+	.Header-itemList3{
+		width: 360px;	
+	}
+	.Header-itemList4{
+		width: 360px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 730px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:740px){
+	html{
+		height: auto;
+		width: 740px;
+	}
+	.Header-menu{
+		width: 740px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 740px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 360px;
+	}
+	.Header-itemList2{
+		width: 360px;
+	}
+	.Header-itemList3{
+		width: 360px;	
+	}
+	.Header-itemList4{
+		width: 360px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 740px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:750px){
+	html{
+		height: auto;
+		width: 750px;
+	}
+	.Header-menu{
+		width: 750px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 750px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 370px;
+	}
+	.Header-itemList2{
+		width: 370px;
+	}
+	.Header-itemList3{
+		width: 370px;	
+	}
+	.Header-itemList4{
+		width: 370px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 750px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:760px){
+	html{
+		height: auto;
+		width: 760px;
+	}
+	.Header-menu{
+		width: 760px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 760px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 370px;
+	}
+	.Header-itemList2{
+		width: 370px;
+	}
+	.Header-itemList3{
+		width: 370px;	
+	}
+	.Header-itemList4{
+		width: 370px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 760px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:770px){
+	html{
+		height: auto;
+		width: 770px;
+	}
+	.Header-menu{
+		width: 770px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 770px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 380px;
+	}
+	.Header-itemList2{
+		width: 380px;
+	}
+	.Header-itemList3{
+		width: 380px;	
+	}
+	.Header-itemList4{
+		width: 380px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 770px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:780px){
+	html{
+		height: auto;
+		width: 780px;
+	}
+	.Header-menu{
+		width: 780px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 780px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 380px;
+	}
+	.Header-itemList2{
+		width: 380px;
+	}
+	.Header-itemList3{
+		width: 380px;	
+	}
+	.Header-itemList4{
+		width: 380px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 780px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:790px){
+	html{
+		height: auto;
+		width: 790px;
+	}
+	.Header-menu{
+		width: 790px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 790px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 390px;
+	}
+	.Header-itemList2{
+		width: 390px;
+	}
+	.Header-itemList3{
+		width: 390px;	
+	}
+	.Header-itemList4{
+		width: 390px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 790px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:800px){
+	html{
+		height: auto;
+		width: 800px;
+	}
+	.Header-menu{
+		width: 800px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 800px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 390px;
+	}
+	.Header-itemList2{
+		width: 390px;
+	}
+	.Header-itemList3{
+		width: 390px;	
+	}
+	.Header-itemList4{
+		width: 390px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 800px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:810px){
+	html{
+		height: auto;
+		width: 810px;
+	}
+	.Header-menu{
+		width: 810px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 810px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 400px;
+	}
+	.Header-itemList2{
+		width: 400px;
+	}
+	.Header-itemList3{
+		width: 400px;	
+	}
+	.Header-itemList4{
+		width: 400px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 810px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:820px){
+	html{
+		height: auto;
+		width: 820px;
+	}
+	.Header-menu{
+		width: 820px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 820px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 400px;
+	}
+	.Header-itemList2{
+		width: 400px;
+	}
+	.Header-itemList3{
+		width: 400px;	
+	}
+	.Header-itemList4{
+		width: 400px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 820px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:830px){
+	html{
+		height: auto;
+		width: 830px;
+	}
+	.Header-menu{
+		width: 830px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 830px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 410px;
+	}
+	.Header-itemList2{
+		width: 410px;
+	}
+	.Header-itemList3{
+		width: 410px;	
+	}
+	.Header-itemList4{
+		width: 410px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 830px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:840px){
+	html{
+		height: auto;
+		width: 840px;
+	}
+	.Header-menu{
+		width: 840px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 840px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 410px;
+	}
+	.Header-itemList2{
+		width: 410px;
+	}
+	.Header-itemList3{
+		width: 410px;	
+	}
+	.Header-itemList4{
+		width: 410px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 840px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:850px){
+	html{
+		height: auto;
+		width: 850px;
+	}
+	.Header-menu{
+		width: 850px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 850px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 420px;
+	}
+	.Header-itemList2{
+		width: 420px;
+	}
+	.Header-itemList3{
+		width: 420px;	
+	}
+	.Header-itemList4{
+		width: 420px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 850px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:860px){
+	html{
+		height: auto;
+		width: 860px;
+	}
+	.Header-menu{
+		width: 860px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 860px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 420px;
+	}
+	.Header-itemList2{
+		width: 420px;
+	}
+	.Header-itemList3{
+		width: 420px;	
+	}
+	.Header-itemList4{
+		width: 420px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 860px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:870px){
+	html{
+		height: auto;
+		width: 870px;
+	}
+	.Header-menu{
+		width: 870px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 870px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 430px;
+	}
+	.Header-itemList2{
+		width: 430px;
+	}
+	.Header-itemList3{
+		width: 430px;	
+	}
+	.Header-itemList4{
+		width: 430px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 870px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:880px){
+	html{
+		height: auto;
+		width: 880px;
+	}
+	.Header-menu{
+		width: 880px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 880px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 430px;
+	}
+	.Header-itemList2{
+		width: 430px;
+	}
+	.Header-itemList3{
+		width: 430px;	
+	}
+	.Header-itemList4{
+		width: 430px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 880px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:890px){
+	html{
+		height: auto;
+		width: 890px;
+	}
+	.Header-menu{
+		width: 890px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 890px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 440px;
+	}
+	.Header-itemList2{
+		width: 440px;
+	}
+	.Header-itemList3{
+		width: 440px;	
+	}
+	.Header-itemList4{
+		width: 440px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 890px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:900px){
+	html{
+		height: auto;
+		width: 900px;
+	}
+	.Header-menu{
+		width: 900px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 900px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 440px;
+	}
+	.Header-itemList2{
+		width: 440px;
+	}
+	.Header-itemList3{
+		width: 440px;	
+	}
+	.Header-itemList4{
+		width: 440px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 900px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:910px){
+	html{
+		height: auto;
+		width: 910px;
+	}
+	.Header-menu{
+		width: 910px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 910px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 450px;
+	}
+	.Header-itemList2{
+		width: 450px;
+	}
+	.Header-itemList3{
+		width: 450px;	
+	}
+	.Header-itemList4{
+		width: 450px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 910px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:920px){
+	html{
+		height: auto;
+		width: 920px;
+	}
+	.Header-menu{
+		width: 920px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 920px;
+		overflow: hidden;
+	}
+	.Header-itemList1{
+		width: 450px;
+	}
+	.Header-itemList2{
+		width: 450px;
+	}
+	.Header-itemList3{
+		width: 450px;	
+	}
+	.Header-itemList4{
+		width: 450px;		
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 920px;
+	}
+	.Perfil-textdescription{
+		font-size: 18px;
+	}
+@media screen and (min-width:930px){
+	html{ 
+		height: auto;
+		width: 930px;
+	}
+	.Header-menu{
+		width: 930px;
+		overflow: hidden; 
+	}
+	.Header-menu1{
+		width: 930px;
+		overflow: hidden; 
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 930px;
+	}
+}
+@media screen and (min-width:940px){
+	html{ 
+		height: auto;
+		width: 940px;
+	}
+	.Header-menu{
+		width: 940px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 940px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 940px;
+	}
+}
+@media screen and (min-width:950px){
+	html{ 
+		height: auto;
+		width: 950px;
+	}
+	.Header-menu{
+		width: 950px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 950px;
+		overflow: hidden; 
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 950px;
+	}
+}
+@media screen and (min-width:960px){
+	html{ 
+		height: auto;
+		width: 960px;
+	}
+	.Header-menu{
+		width: 960px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 960px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 960px;
+	}
+}
+@media screen and (min-width:970px){
+	html{; 
+		height: auto;
+		width: 970px;
+	}
+	.Header-menu{
+		width: 970px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 970px;
+		overflow: hidden; 
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 970px;
+	}
+}
+@media screen and (min-width:980px){
+	html{ 
+		height: auto;
+		width: 980px;
+	}
+	.Header-menu{
+		width: 980px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 980px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 980px;
+	}
+}
+@media screen and (min-width:990px){
+	html{ 
+		height: auto;
+		width: 990px;
+	}
+	.Header-menu{
+		width: 990px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 990px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 990px;
+	}
+}
+@media screen and (min-width:1000px){
+	html{ 
+		height: auto;
+		width: 1000px;
+	}
+	.Header-menu{
+		width: 1000px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1000px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1000px;
+	}
+}
+@media screen and (min-width:1010px){
+	html{ 
+		height: auto;
+		width: 1010px;
+	}
+	.Header-menu{
+		width: 1010px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1010px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1010px;
+	}
+}
+@media screen and (min-width:1020px){
+	html{
+		height: auto;
+		width: 1020px;
+	}
+	.Header-menu{
+		width: 1020px;
+		overflow: hidden;;
+	}
+	.Header-menu1{
+		width: 1020px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1020px;
+	}
+}
+@media screen and (min-width:1030px){
+	html{ 
+		height: auto;
+		width: 1030px;
+	}
+	.Header-menu{
+		width: 1030px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1030px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1030px;
+	}
+}
+@media screen and (min-width:1040px){
+	html{ 
+		height: auto;
+		width: 1040px;
+	}
+	.Header-menu{
+		width: 1040px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1040px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1040px;
+	}
+}
+@media screen and (min-width:1050px){
+	html{
+		height: auto;
+		width: 1050px;
+	}
+	.Header-menu{
+		width: 1050px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1050px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1050px;
+	}
+}
+@media screen and (min-width:1060px){
+	html{ 
+		height: auto;
+		width: 1060px;
+	}
+	.Header-menu{
+		width: 1060px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1060px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1060px;
+	}
+}
+@media screen and (min-width:1070px){
+	html{ 
+		height: auto;
+		width: 1070px;
+	}
+	.Header-menu{
+		width: 1070px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1070px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1070px;
+	}
+}
+@media screen and (min-width:1080px){
+	html{ 
+		height: auto;
+		width: 1080px;
+	}
+	.Header-menu{
+		width: 1080px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1080px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1080px;
+	}
+}
+@media screen and (min-width:1090px){
+	html{ 
+		height: auto;
+		width: 1090px;
+	}
+	.Header-menu{
+		width: 1090px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1090px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1090px;
+	}
+}
+@media screen and (min-width:1100px){
+	html{ 
+		height: auto;
+		width: 1100px;
+	}
+	.Header-menu{
+		width: 1100px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1100px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1100px;
+	}
+}
+@media screen and (min-width:1110px){
+	html{ 
+		height: auto;
+		width: 1110px;
+	}
+	.Header-menu{
+		width: 1110px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1110px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1110px;
+	}
+}
+@media screen and (min-width:1120px){
+	html{ 
+		height: auto;
+		width: 1120px;
+	}
+	.Header-menu{
+		width: 1120px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1120px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1120px;
+	}
+}
+@media screen and (min-width:1130px){
+	html{ 
+		height: auto;
+		width: 1130px;
+	}
+	.Header-menu{
+		width: 1130px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1130px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1130px;
+	}
+}
+@media screen and (min-width:1140px){
+	html{ 
+		height: auto;
+		width: 1140px;
+	}
+	.Header-menu{
+		width: 1140px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1140px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1140px;
+	}
+}
+@media screen and (min-width:1150px){
+	html{ 
+		height: auto;
+		width: 1150px;
+	}
+	.Header-menu{
+		width: 1150px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1150px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1150px;
+	}
+}
+@media screen and (min-width:1160px){
+	html{ 
+		height: auto;
+		width: 1160px;
+	}
+	.Header-menu{
+		width: 1160px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1160px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1160px;
+	}
+}
+@media screen and (min-width:1170px){
+	html{ 
+		height: auto;
+		width: 1170px;
+	}
+	.Header-menu{
+		width: 1170px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1170px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1170px;
+	}
+}
+@media screen and (min-width:1180px){
+	html{ 
+		height: auto;
+		width: 1180px;
+	}
+	.Header-menu{
+		width: 1180px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1180px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1180px;
+	}
+}
+@media screen and (min-width:1190px){
+	html{ 
+		height: auto;
+		width: 1190px;
+	}
+	.Header-menu{
+		width: 1190px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1190px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1190px;
+	}
+}
+@media screen and (min-width:1200px){
+	html{ 
+		height: auto;
+		width: 1200px;
+	}
+	.Header-menu{
+		width: 1200px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1200px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1200px;
+	}
+}
+@media screen and (min-width:1210px){
+	html{ 
+		height: auto;
+		width: 1210px;
+	}
+	.Header-menu{
+		width: 1210px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1210px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1210px;
+	}
+}
+@media screen and (min-width:1220px){
+	html{ 
+		height: auto;
+		width: 1220px;
+	}
+	.Header-menu{
+		width: 1220px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1220px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1220px;
+	}
+}
+@media screen and (min-width:1230px){
+	html{ 
+		height: auto;
+		width: 1230px;
+	}
+	.Header-menu{
+		width: 1230px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1230px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1230px;
+	}
+}
+@media screen and (min-width:1240px){
+	html{ 
+		height: auto;
+		width: 1240px;
+	}
+	.Header-menu{
+		width: 1240px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1240px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1240px;
+	}
+}
+@media screen and (min-width:1250px){
+	html{ 
+		height: auto;
+		width: 1250px;
+	}
+	.Header-menu{
+		width: 1250px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1250px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1250px;
+	}
+}
+@media screen and (min-width:1260px){
+	html{ 
+		height: auto;
+		width: 1260px;
+	}
+	.Header-menu{
+		width: 1260px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1260px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1260px;
+	}
+}
+@media screen and (min-width:1270px){
+	html{ 
+		height: auto;
+		width: 1270px;
+	}
+	.Header-menu{
+		width: 1270px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1270px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1270px;
+	}
+}
+@media screen and (min-width:1280px){
+	html{ 
+		height: auto;
+		width: 1280px;
+	}
+	.Header-menu{
+		width: 1280px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1280px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1280px;
+	}
+}
+@media screen and (min-width:1290px){
+	html{ 
+		height: auto;
+		width: 1290px;
+	}
+	.Header-menu{
+		width: 1290px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1290px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1290px;
+	}
+}
+@media screen and (min-width:1300px){
+	html{ 
+		height: auto;
+		width: 1300px;
+	}
+	.Header-menu{
+		width: 1300px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1300px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1300px;
+	}
+}
+@media screen and (min-width:1310px){
+	html{ 
+		height: auto;
+		width: 1310px;
+	}
+	.Header-menu{
+		width: 1310px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1310px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1310px;
+	}
+}
+@media screen and (min-width:1320px){
+	html{ 
+		height: auto;
+		width: 1320px;
+	}
+	.Header-menu{
+		width: 1320px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1320px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1320px;
+	}
+}
+@media screen and (min-width:1330px){
+	html{ 
+		height: auto;
+		width: 1330px;
+	}
+	.Header-menu{
+		width: 1330px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1330px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1330px;
+	}
+}
+@media screen and (min-width:1340px){
+	html{ 
+		height: auto;
+		width: 1340px;
+	}
+	.Header-menu{
+		width: 1340px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1340px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1340px;
+	}
+}
+@media screen and (min-width:1350px){
+	html{ 
+		height: auto;
+		width: 1350px;
+	}
+	.Header-menu{
+		width: 1350px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1350px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1350px;
+	}
+}
+@media screen and (min-width:1360px){
+	html{ 
+		height: auto;
+		width: 1360px;
+	}
+	.Header-menu{
+		width: 1360px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1360px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1360px;
+	}
+}
+@media screen and (min-width:1370px){
+	html{ 
+		height: auto;
+		width: 1370px;
+	}
+	.Header-menu{
+		width: 1370px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1370px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1370px;
+	}
+}
+@media screen and (min-width:1380px){
+	html{ 
+		height: auto;
+		width: 1380px;
+	}
+	.Header-menu{
+		width: 1380px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1380px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1380px;
+	}
+}
+@media screen and (min-width:1390px){
+	html{ 
+		height: auto;
+		width: 1390px;
+	}
+	.Header-menu{
+		width: 1390px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1390px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1390px;
+	}
+}
+@media screen and (min-width:1400px){
+	html{ 
+		height: auto;
+		width: 1400px;
+	}
+	.Header-menu{
+		width: 1400px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1400px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1400px;
+	}
+}
+@media screen and (min-width:1410px){
+	html{ 
+		height: auto;
+		width: 1410px;
+	}
+	.Header-menu{
+		width: 1410px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1410px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1410px;
+	}
+}
+@media screen and (min-width:1420px){
+	html{ 
+		height: auto;
+		width: 1420px;
+	}
+	.Header-menu{
+		width: 1420px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1420px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1420px;
+	}
+}
+@media screen and (min-width:1430px){
+	html{ 
+		height: auto;
+		width: 1430px;
+	}
+	.Header-menu{
+		width: 1430px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1430px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1430px;
+	}
+}
+@media screen and (min-width:1440px){
+	html{ 
+		height: auto;
+		width: 1440px;
+	}
+	.Header-menu{
+		width: 1440px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1440px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1440px;
+	}
+}
+@media screen and (min-width:1450px){
+	html{ 
+		height: auto;
+		width: 1450px;
+	}
+	.Header-menu{
+		width: 1450px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1450px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1450px;
+	}
+}
+@media screen and (min-width:1460px){
+	html{ 
+		height: auto;
+		width: 1460px;
+	}
+	.Header-menu{
+		width: 1460px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1460px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1460px;
+	}
+}
+@media screen and (min-width:1470px){
+	html{ 
+		height: auto;
+		width: 1470px;
+	}
+	.Header-menu{
+		width: 1470px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1470px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1470px;
+	}
+}
+@media screen and (min-width:1480px){
+	html{ 
+		height: auto;
+		width: 1480px;
+	}
+	.Header-menu{
+		width: 1480px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1480px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1480px;
+	}
+}
+@media screen and (min-width:1490px){
+	html{ 
+		height: auto;
+		width: 1490px;
+	}
+	.Header-menu{
+		width: 1490px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1490px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1490px;
+	}
+}
+@media screen and (min-width:1500px){
+	html{ 
+		height: auto;
+		width: 1500px;
+	}
+	.Header-menu{
+		width: 1500px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1500px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1500px;
+	}
+}
+@media screen and (min-width:1510px){
+	html{ 
+		height: auto;
+		width: 1510px;
+	}
+	.Header-menu{
+		width: 1510px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1510px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1510px;
+	}
+}
+@media screen and (min-width:1520px){
+	html{ 
+		height: auto;
+		width: 1520px;
+	}
+	.Header-menu{
+		width: 1520px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1520px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1520px;
+	}
+}
+@media screen and (min-width:1530px){
+	html{ 
+		height: auto;
+		width: 1530px;
+	}
+	.Header-menu{
+		width: 1530px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1530px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1530px;
+	}
+}
+@media screen and (min-width:1540px){
+	html{ 
+		height: auto;
+		width: 1540px;
+	}
+	.Header-menu{
+		width: 1540px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1540px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1540px;
+	}
+}
+@media screen and (min-width:1550px){
+	html{ 
+		height: auto;
+		width: 1550px;
+	}
+	.Header-menu{
+		width: 1550px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1550px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1550px;
+	}
+}
+@media screen and (min-width:1560px){
+	html{ 
+		height: auto;
+		width: 1560px;
+	}
+	.Header-menu{
+		width: 1560px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1560px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1560px;
+	}
+}
+@media screen and (min-width:1570px){
+	html{ 
+		height: auto;
+		width: 1570px;
+	}
+	.Header-menu{
+		width: 1570px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1570px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1570px;
+	}
+}
+@media screen and (min-width:1580px){
+	html{ 
+		height: auto;
+		width: 1580px;
+	}
+	.Header-menu{
+		width: 1580px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1580px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1580px;
+	}
+}
+@media screen and (min-width:1590px){
+	html{ 
+		height: auto;
+		width: 1590px;
+	}
+	.Header-menu{
+		width: 1590px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1590px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1590px;
+	}
+}
+@media screen and (min-width:1600px){
+	html{ 
+		height: auto;
+		width: 1600px;
+	}
+	.Header-menu{
+		width: 1600px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1600px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1600px;
+	}
+}
+@media screen and (min-width:1610px){
+	html{ 
+		height: auto;
+		width: 1610px;
+	}
+	.Header-menu{
+		width: 1610px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1610px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1610px;
+	}
+}
+@media screen and (min-width:1620px){
+	html{ 
+		height: auto;
+		width: 1620px;
+	}
+	.Header-menu{
+		width: 1620px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1620px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1620px;
+	}
+}
+@media screen and (min-width:1630px){
+	html{ 
+		height: auto;
+		width: 1630px;
+	}
+	.Header-menu{
+		width: 1630px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1630px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1630px;
+	}
+}
+@media screen and (min-width:1640px){
+	html{ 
+		height: auto;
+		width: 1640px;
+	}
+	.Header-menu{
+		width: 1640px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1640px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1640px;
+	}
+}
+@media screen and (min-width:1650px){
+	html{ 
+		height: auto;
+		width: 1650px;
+	}
+	.Header-menu{
+		width: 1650px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1650px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1650px;
+	}
+}
+@media screen and (min-width:1660px){
+	html{ 
+		height: auto;
+		width: 1660px;
+	}
+	.Header-menu{
+		width: 1660px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1660px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1660px;
+	}
+}
+@media screen and (min-width:1670px){
+	html{ 
+		height: auto;
+		width: 1670px;
+	}
+	.Header-menu{
+		width: 1670px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1670px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1670px;
+	}
+}
+@media screen and (min-width:1680px){
+	html{ 
+		height: auto;
+		width: 1680px;
+	}
+	.Header-menu{
+		width: 1680px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1680px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1680px;
+	}
+}
+@media screen and (min-width:1690px){
+	html{ 
+		height: auto;
+		width: 1690px;
+	}
+	.Header-menu{
+		width: 1690px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1690px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1690px;
+	}
+}
+@media screen and (min-width:1700px){
+	html{ 
+		height: auto;
+		width: 1700px;
+	}
+	.Header-menu{
+		width: 1700px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1700px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1700px;
+	}
+}
+@media screen and (min-width:1710px){
+	html{ 
+		height: auto;
+		width: 1710px;
+	}
+	.Header-menu{
+		width: 1710px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1710px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1710px;
+	}
+}
+@media screen and (min-width:1720px){
+	html{ 
+		height: auto;
+		width: 1720px;
+	}
+	.Header-menu{
+		width: 1720px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1720px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1720px;
+	}
+}
+@media screen and (min-width:1730px){
+	html{ 
+		height: auto;
+		width: 1730px;
+	}
+	.Header-menu{
+		width: 1730px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1730px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1730px;
+	}
+}
+@media screen and (min-width:1740px){
+	html{ 
+		height: auto;
+		width: 1740px;
+	}
+	.Header-menu{
+		width: 1740px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1740px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1740px;
+	}
+}
+@media screen and (min-width:1750px){
+	html{ 
+		height: auto;
+		width: 1750px;
+	}
+	.Header-menu{
+		width: 1750px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1750px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1750px;
+	}
+}
+@media screen and (min-width:1760px){
+	html{ 
+		height: auto;
+		width: 1760px;
+	}
+	.Header-menu{
+		width: 1760px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1760px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1760px;
+	}
+}
+@media screen and (min-width:1770px){
+	html{ 
+		height: auto;
+		width: 1770px;
+	}
+	.Header-menu{
+		width: 1770px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1770px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1770px;
+	}
+}
+@media screen and (min-width:1780px){
+	html{ 
+		height: auto;
+		width: 1780px;
+	}
+	.Header-menu{
+		width: 1780px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1780px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1780px;
+	}
+}
+@media screen and (min-width:1790px){
+	html{ 
+		height: auto;
+		width: 1790px;
+	}
+	.Header-menu{
+		width: 1790px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1790px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1790px;
+	}
+}
+@media screen and (min-width:1800px){
+	html{ 
+		height: auto;
+		width: 1800px;
+	}
+	.Header-menu{
+		width: 1800px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1800px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1800px;
+	}
+}
+@media screen and (min-width:1810px){
+	html{ 
+		height: auto;
+		width: 1810px;
+	}
+	.Header-menu{
+		width: 1810px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1810px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1810px;
+	}
+}
+@media screen and (min-width:1820px){
+	html{ 
+		height: auto;
+		width: 1820px;
+	}
+	.Header-menu{
+		width: 1820px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1820px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1820px;
+	}
+}
+@media screen and (min-width:1830px){
+	html{ 
+		height: auto;
+		width: 1830px;
+	}
+	.Header-menu{
+		width: 1830px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1830px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1830px;
+	}
+}
+@media screen and (min-width:1840px){
+	html{ 
+		height: auto;
+		width: 1840px;
+	}
+	.Header-menu{
+		width: 1840px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1840px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1840px;
+	}
+}
+@media screen and (min-width:1850px){
+	html{ 
+		height: auto;
+		width: 1850px;
+	}
+	.Header-menu{
+		width: 1850px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1850px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1850px;
+	}
+}
+@media screen and (min-width:1860px){
+	html{ 
+		height: auto;
+		width: 1860px;
+	}
+	.Header-menu{
+		width: 1860px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1860px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1860px;
+	}
+}
+@media screen and (min-width:1870px){
+	html{ 
+		height: auto;
+		width: 1870px;
+	}
+	.Header-menu{
+		width: 1870px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1870px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1870px;
+	}
+}
+@media screen and (min-width:1880px){
+	html{ 
+		height: auto;
+		width: 1880px;
+	}
+	.Header-menu{
+		width: 1880px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1880px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1880px;
+	}
+}
+@media screen and (min-width:1890px){
+	html{ 
+		height: auto;
+		width: 1890px;
+	}
+	.Header-menu{
+		width: 1890px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1890px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1890px;
+	}
+}
+@media screen and (min-width:1900px){
+	html{ 
+		height: auto;
+		width: 1900px;
+	}
+	.Header-menu{
+		width: 1900px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1900px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1900px;
+	}
+}
+@media screen and (min-width:1910px){
+	html{ 
+		height: auto;
+		width: 1910px;
+	}
+	.Header-menu{
+		width: 1910px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1910px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1910px;
+	}
+}
+@media screen and (min-width:1920px){
+	html{ 
+		height: auto;
+		width: 1920px;
+	}
+	.Header-menu{
+		width: 1920px;
+		overflow: hidden;
+	}
+	.Header-menu1{
+		width: 1920px;
+		overflow: hidden;
+	}
+	.Header-imageContainer{
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 1920px;
+	}
+}
