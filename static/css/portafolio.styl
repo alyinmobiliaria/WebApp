@@ -1,0 +1,1358 @@
+@import "fonts.styl"
+@import "flaticon.styl"
+Green_Aly = #00ba89
+Black_Aly = #1e120d
+Blue_Aly = #00b9e8
+/*Background de Anuncios SecciónAzul*/
+ElTiempo = #e5ddd7
+Brown_Aly = #2f0000
+Orange_Aly = #ffa500
+Verde_D = lightgreen
+Green_Mejor = #7dcd40
+Yellow_Mejor = #ffc44d
+Red_Mejor = #ff4842
+Yellow_Aly = #dfcf6f
+Brown_Font = #87620a
+Brown_Borderbtn = #87620a
+/* STYLUS DEL INDEX.HTML, CLASIFICADOS.HTML, TRABAJOS.HTML, NOTICIAS.HTML,
+TANTO DEL NAV, COMO DEL HEADER, EL MENU Y EL AVATAR */
+body
+	background lightgray
+	nav.Canvas
+		left 0
+		overflow hidden
+		position fixed
+		right 0 
+		top 0
+	.Header
+		background Green_Aly
+		color white
+		height 30px
+		line-height 30px
+		padding 10px 0
+		position relative	
+		&-logoCon
+			margin 0
+			top 0
+			width 200px
+		&-logoTexto
+			display block
+			font-size 30px
+			left 60px
+			line-height 40px
+			margin 0
+			position absolute
+			text-shadow 0 0 10px Verde_D
+			top 6px
+		&-logo1
+			display block
+			left 5px
+			margin 0
+			position absolute
+			top 2px
+			z-index 10px
+		&-button
+			background Green_Aly
+			border none	
+			color white
+			display none
+			font-size 30px
+			font-weight normal
+			padding 0
+			position absolute
+			right 5px
+			top 10px
+			&.is-active
+				display block 
+		.MainMenu
+			background Green_Aly
+			height auto
+			left -200px
+			list-style none
+			margin 0
+			padding 0
+			position absolute
+			position fixed
+			top 50px
+			transition .2s
+			width 200px
+			&.is-active
+				left 0
+			&-item
+				-webkit-transition .2s
+				height 50px
+				line-height 50px
+				text-align center
+				text-shadow 0 0 10px Verde_D
+				&:hover
+					background lightgray	
+			&-link
+				color white
+				display block
+				font-size 14px
+				text-decoration none
+				text-transform uppercase	
+	#Avatar
+		background-image url("../images/portada.png")	
+		background-position center
+		background-repeat no-repeat
+		background-size cover
+		height auto
+		margin-top 47px
+		overflow hidden 
+		padding 1.5em 0
+		text-align: center
+		.Avatar-titulo
+			background rgba(255, 255, 255, 0.38)
+			border 5px solid black
+			display inline-block
+			height auto
+			margin-left 0
+			margin-right 0
+			margin-top 0
+			text-align center
+			width 300px
+		.Avatar-img
+			background rgba(255, 255, 255, 0.38)
+			border 5px solid black
+			border-radius 10%
+/* STYLUS DE LOS FUNDADORES EN INDEX.HTML */
+.Founder
+	display: inline-block;
+	margin 0
+	width: 180px;
+	&-img
+		border 5px solid black
+		border-radius 10%
+.Founder1
+	display: inline-block;
+	margin 0
+	width: 260px;
+	&-alianceImg1
+		border 5px solid black
+.Con-aliance
+	border 5px solid black
+	display: inline-block;
+	margin 0
+/* STYLUS DE LAS SECCIONES, LOS TITULOS,
+DE LOS ARTICULOS, DEL TEXTO, DE LOS BOTONES DE TWITTER Y FACEBOOK,
+DEL INDEX.HTML */
+.Con
+	padding-bottom 10px
+	&-titulo
+		background Green_Aly
+		color white
+		font-weight normal
+		margin-top 0
+		overflow hidden
+		text-align center
+		text-shadow 0 0 10px Verde_D
+	&-Article
+		margin-bottom .5em
+		text-align center
+	&-texto
+		margin-left 2%
+		margin-right 2%
+	&-textIalic
+		font-style italic	
+	&-linkTwitter
+		background Orange_Aly
+		border-bottom 3px solid #f39c12	
+		border-radius 5px
+		color white
+		display inline-block
+		font-size 1em
+		font-weight normal
+		margin-top .5em
+		padding 5px
+		text-decoration none
+	&-linkFacebook
+		background Orange_Aly
+		border-bottom 3px solid #f39c12	
+		border-radius 5px
+		color white
+		display inline-block
+		font-size 1em
+		font-weight normal
+		margin-top .5em
+		padding 5px
+		text-decoration none
+/* STYLUS DE ANUNCIOS EN CLASIFICADOS */
+.Con-ArticleAn
+	background darkgray
+	display inline-block
+	margin-top .2em
+	text-align center
+	width 320px
+	.Con-imageConte1
+		background Yellow_Aly
+	.Con-imageConte2
+		background Blue_Aly
+	.Con-imageConte3
+		background Green_Aly
+section.Columdrop
+		background darkgray
+		h2.Columdrop-titulo.icon-Anuncios
+			background Yellow_Aly
+			color white
+			font-weight normal
+			margin-top 0
+			overflow hidden
+			text-align center
+			text-shadow 0 0 10px Yellow_Mejor		
+		.Columdrop-rowTitle
+			font-weight normal
+		.Columdrop-row
+			padding-left 1%
+			padding-right 1%
+			width 28%
+			display inline-block
+			&.Yellow
+				background Yellow_Aly
+		.Columdrop-text
+			text-align center
+section.ColumdropV
+		background ElTiempo
+		margin-top 1em
+		h2.ColumdropV-titulo.icon-Anuncios
+			background Green_Aly
+			color white
+			font-weight normal
+			margin-top 0
+			overflow hidden
+			text-align center
+			text-shadow 0 0 10px Green_Aly		
+		.ColumdropV-rowTitle
+			font-weight normal
+		.ColumdropV-row
+			padding-left 1%
+			padding-right 1%
+			width 28%
+			display inline-block
+			&.Green
+				background Green_Aly
+section.ColumdropAz
+		background rgba(0, 185, 232, 0.4)
+		margin-top 1em
+		padding-bottom 1em
+		h2.ColumdropAz-titulo.icon-Anuncios
+			background Blue_Aly
+			color white
+			font-weight normal
+			margin-top 0
+			overflow hidden
+			text-align center
+			text-shadow 0 0 10px Blue_Aly		
+		.ColumdropAz-rowTitle
+			font-weight normal
+		.ColumdropAz-row
+			padding-left 1%
+			padding-right 1%
+			width 28%
+			display inline-block
+			&.Blue
+				background ElTiempo
+/* STYLUS DE ENLACES EXCLUSIVOS INMUEBLES */
+	section
+		background ElTiempo
+		h2.LOCAAP-titulo.icon-home
+			background Yellow_Aly
+			margin-top 0px
+			color Brown_Aly
+		h2.LOCAAP-titulo.icon-Info2
+			background Yellow_Aly
+			margin-top 0px
+			color Brown_Aly
+		h2.LOCAAP-titulo.icon-ojo
+			background Yellow_Aly
+			margin-top 0px
+			color Brown_Aly
+		.LOCAAP-article
+			margin-bottom 19px
+			display inline-block
+			text-align left
+			background Yellow_Aly
+			height auto
+			width 160px
+		.slide i
+			color Brown_Aly
+			font-size 150px
+			font-weight 100
+			font-style normal
+			display block
+			margin-bottom 15px
+			height 60px
+		.icon-Checklist:before
+			display block
+			left 0px
+			font-size: 80px;
+		.icon-location:before
+			display block
+			left 0px
+			font-size: 80px;
+		.icon-Parking:before
+			display block
+			left 0px
+			font-size: 80px;
+		.icon-Ascensor:before
+			display block
+			left 0px
+			font-size: 80px;
+		.icon-Comunal:before
+			display block
+			left 0px
+			font-size 80px
+		.icon-Date:before
+			display block
+			left 0px
+			font-size 80px
+		.icon-Comedor:before
+			display block
+			left 0px
+			font-size 80px
+		.icon-Sala:before
+			display block
+			left 0px
+			font-size 80px
+		.icon-Chimenea:before
+			display block
+			left 0px
+			font-size 80px
+		.icon-Cocina:before
+			display block
+			left 0px
+			font-size 80px
+		.icon-Estudio:before
+			display block
+			left 0px
+			font-size 80px
+		.icon-Admon:before
+			display block
+			left 0px
+			font-size 80px
+		.icon-Room:before
+			display block
+			left 0px
+			font-size 80px
+		.icon-Closet:before
+			display block
+			left 0px
+			font-size 80px
+		.icon-Restroom:before
+			display block
+			left 0px
+			font-size 80px	
+		.icon-Moneda:before
+			display block
+			left 0px
+			font-size 80px
+		.icon-Metros:before
+			display block
+			left 0px
+			font-size 80px
+		.icon-Estrato:before
+			display block
+			left 0px
+			font-size 80px
+		.icon-Reception:before
+			display block
+			left 0px
+			font-size 80px						
+		.LOCAAP-artTitulo1
+			margin-left 2%
+			font-size: 22px
+			color: #fff
+			border-bottom 1px solid #fff
+			padding-bottom 14px
+		.LOCAAP-artTitulo2
+			margin-left 2%
+			font-style: italic;
+			color Brown_Aly
+			font-size: 18px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		.LOCAAP-artDescription
+			margin-left 2%
+			padding-bottom 20px
+			color Brown_Aly
+			line-height 16px
+			font-size 14px
+		.LOCAAP-imgContainer
+			margin 0px
+			display inline-block
+		.LOCAAP-imgContainer img
+			height auto
+			width 98%
+		figcaption.LOCAAP-imgDescrip
+			background lightgray
+			font-style: italic
+			margin-bottom 6px
+		h5.LOCAAP-imgDescrip
+			background lightgray
+			font-style: italic
+			margin 10px 0 10px 0
+/*SLIDER*/
+section.LOCAAP-slider
+	text-align center
+	overflow hidden
+	div#marco
+		display inline-block
+		margin-bottom 20px
+		width 958px
+		border 10px solid white
+		border-radius 4px
+		box-shadow 0px 0px 25px 5px rgba(0, 0, 0, 0.3)
+		overflow hidden
+		z-index 5
+		ul
+			height 230px
+			margin 0
+			padding 0
+			width 5000px
+			li
+				background-color Yellow_Aly
+				float left
+				height 230px
+				list-style none
+				margin 0
+				overflow hidden
+				position relative
+				top 0px
+				width 160px
+	div#arrow
+		width 60px
+		background-color Yellow_Aly
+		border-radius 10%
+		position relative
+		margin-bottom 20px
+	div#arrow
+		right 45%
+		left 45% 
+	div a
+		width 60px
+		background-color transparent
+		color Brown_Aly
+		font-size 3em
+		text-decoration none
+	// a#anterior
+	// 	position relative
+	// a#siguiente
+	// 	position relative
+/* STYLUS DEL FOOTER DE TODOS LOS .HTML*/
+#Footer
+	background-image url("../images/footer.png")	
+	background-position center
+	background-repeat no-repeat
+	background-size cover
+	height auto
+	margin-top 0px
+	overflow hidden 
+	padding 0
+	text-align: center
+.Footer
+	&-titulo
+		background black
+		color white
+		font-weight normal
+		margin-top 0
+		overflow hidden
+		text-align center
+		text-shadow 0 0 10px Verde_D
+	&-texto
+		color white
+		margin-left 2%
+		margin-right 2%
+	&-description
+		color white
+.FooterCla
+	background-image url("../images/footer.png")	
+	background-position center
+	background-repeat no-repeat
+	background-size cover
+	height auto
+	margin-top 0px
+	overflow hidden 
+	padding 0
+	text-align: center
+	&-titulo
+		background black
+		color white
+		font-weight normal
+		margin-top 0
+		overflow hidden
+		text-align center
+		text-shadow 0 0 10px Verde_D
+	&-texto
+		color white
+		margin-left 2%
+		margin-right 2%
+	&-description
+		color white	
+//SECCION AMARILLA-AZUL-VERDE//
+	.Canvas-Sa
+		left 0
+		overflow hidden
+		position fixed
+		position relative
+		right 0 
+		top 0
+	.Header-Sa
+		background Yellow_Aly
+		color black
+		height 30px
+		line-height 30px
+		padding 10px 0
+		position relative	
+		&-logoCon
+			margin 0
+			top 0
+			width 200px
+		&-logoTexto
+			display block
+			font-size 30px
+			left 60px
+			line-height 40px
+			margin 0
+			position absolute
+			text-shadow 0 0 10px Verde_D
+			top 6px
+		&-logo1
+			display block
+			left 5px
+			margin 0
+			position absolute
+			top 2px
+			z-index 10px
+		&-button
+			background Yellow_Aly
+			border none	
+			color white
+			display none
+			font-size 30px
+			font-weight normal
+			padding 0
+			position absolute
+			right 5px
+			top 10px
+			&.is-active
+				display block 
+		.MainMenu-Sa
+			background Green_Aly
+			height auto
+			left -200px
+			list-style none
+			margin 0
+			padding 0
+			position absolute
+			position fixed
+			top 50px
+			transition .2s
+			width 200px
+			&.is-active
+				left 0
+			&-item-Sa
+				-webkit-transition .2s
+				height 50px
+				line-height 50px
+				text-align center
+				text-shadow 0 0 10px Verde_D
+				&:hover
+					background lightgray	
+			&-link-Sa
+				color white
+				display block
+				font-size 14px
+				text-decoration none
+				text-transform uppercase	
+@media screen and (min-width:160px)
+	html
+		height auto
+		width 100%
+		body
+			width 100%
+			.Header
+				.MainMenu
+					height auto
+					width 160px
+			#Avatar
+				.Avatar-container
+					margin auto
+				.Avatar-titulo
+					font-size 100%
+					height auto
+					width 95%			
+			.Con
+				width 100%
+				&-titulo
+					font-size 100%
+					height auto
+				&-Article
+					width 100%
+				&-texto
+					font-size 80%
+				&-linkTwitter
+					font-size 80%
+				&-linkFacebook
+					font-size 70%
+				.Founder
+					width 100%
+				.Founder-img
+					width 120px
+				.Founder1
+					width 100%
+				.Founder1-img
+					width 120px
+				&-aliance
+					width 90%
+				&-alianceImg1
+					width 100%
+			#Footer
+				.Footer
+					width 100%
+					&-titulo
+						font-size 100%
+						height auto
+					&-texto
+						font-size 14px
+					&-description
+						font-size 9px
+			.FooterCla
+				width 100%
+				&-titulo
+					font-size 100%
+					height auto
+				&-texto
+					font-size 14px
+				&-description
+					font-size 9px							
+			.p-Artext
+				font-size 80%
+				margin-left 5%
+				margin-right 5%
+				text-align center		
+			#vimeoplayer
+				height auto
+				width 95%
+			#ytplayer
+				height auto
+				width 95%
+			.Con-imgContainer
+				margin 0
+				width auto	
+			.Con-img
+				width 100%
+			.Con-ArticleAn
+				width 100%
+			.Columdrop
+				background ElTiempo
+				margin-top 1em
+			h2.Columdrop-titulo.icon-Anuncios,
+			h2.ColumdropV-titulo.icon-Anuncios,
+			h2.ColumdropAz-titulo.icon-Anuncios
+				font-size 100%
+				height auto
+			.Columdrop-row
+				margin-bottom 1em
+				&.Yellow
+					padding-left 1%
+					padding-right 1%
+					width 98%
+					display inline-block
+			.ColumdropV
+				margin-top 0px
+			.ColumdropV-row
+				margin-bottom 1em
+				&.Green
+					padding-left 1%
+					padding-right 1%
+					width 98%
+					display inline-block
+			.ColumdropAz
+				margin-top 0px
+				padding-bottom 0px
+			.ColumdropAz-row
+				margin-bottom 1em
+				&.Blue
+					padding-left 1%
+					padding-right 1%
+					width 98%
+					display inline-block
+			.Columdrop-text
+				font-size 80%
+				margin-left 5%
+				margin-right 5%
+				text-align center
+			.is-Fig
+				font-size 80%
+				margin-left 5%
+				margin-right 5%
+				text-align center
+			h2.LOCAAP-titulo.icon-home
+				font-size 100%
+				height auto
+				width 100%
+			h2.LOCAAP-titulo.icon-Info2
+				font-size 100%
+				height auto
+				width 100%
+			h5.LOCAAP-imgDescrip
+				font-size 12px
+				height auto
+				width 100%
+			figcaption.LOCAAP-imgDescrip
+				font-size 12px
+				height auto
+				width 100%
+			article.LOCAAP-article
+				height 291px
+				width 100%
+@media screen and (min-width:220px)
+	html
+		height auto
+		width 100%
+		body
+			width 100%
+			article.LOCAAP-article
+				height 291px
+				width 220px															
+@media screen and (min-width:320px)
+	html
+		height auto
+		width 100%
+		body
+			width 100%
+			#Avatar
+				.MainMenu
+					height auto
+					width 200px
+				.Avatar-container
+					margin auto
+				.Avatar-titulo
+					font-size 100%
+					height auto
+					width 50%			
+			.Con
+				width 100%
+				&-titulo
+					font-size 22px
+					height auto
+				&-Article
+					width 100%
+				&-texto
+					font-size 16px
+					font-weight normal
+				&-linkTwitter
+					font-size 16px
+				&-linkFacebook
+					font-size 16px
+				.Founder
+					width 320px
+				.Founder-img
+					width 200px
+				.Founder1
+					width 320px
+				.Founder1-img
+					width 200px
+				&-aliance
+					width 320
+				&-alianceImg1
+					width 100%
+			#Footer
+				.Footer
+					width 100%
+					&-titulo
+						font-size 22px
+						height auto
+					&-texto
+						font-size 16px
+					&-description
+						font-size 16px
+			.FooterCla
+				width 100%
+				&-titulo
+					font-size 22px
+					height auto
+				&-texto
+					font-size 16px
+				&-description
+					font-size 16px							
+			.p-Artext
+				font-size 16px
+				margin-left 5%
+				margin-right 5%
+				text-align center		
+			#vimeoplayer
+				min-height 204px
+				width 98%
+			#ytplayer
+				min-height 204px
+				width 98%
+			.Con-imgContainer
+				margin 0
+				width auto	
+			.Con-img
+				width 100%
+			.Con-ArticleAn
+				width auto
+			.Columdrop
+				background ElTiempo
+				margin-top 1em
+			h2.Columdrop-titulo.icon-Anuncios,
+			h2.ColumdropV-titulo.icon-Anuncios,
+			h2.ColumdropAz-titulo.icon-Anuncios
+				font-size 22px
+				height auto
+			.Columdrop-row
+				margin-bottom 1em
+				&.Yellow
+					padding-left 1%
+					padding-right 1%
+					width 300px
+					display inline-block
+			.ColumdropV
+				margin-top 0px
+			.ColumdropV-row
+				margin-bottom 1em
+				&.Green
+					padding-left 1%
+					padding-right 1%
+					width 300px
+					display inline-block
+			.ColumdropAz
+				margin-top 0px
+				padding-bottom 0px
+			.ColumdropAz-row
+				margin-bottom 1em
+				&.Blue
+					padding-left 1%
+					padding-right 1%
+					width 300px
+					display inline-block
+			.Columdrop-text
+				font-size 16px
+				font-weight normal
+			.is-Fig
+				font-size 80%
+				margin-left 5%
+				margin-right 5%
+				text-align center
+			h2.LOCAAP-titulo.icon-home
+				font-size 22px
+				height auto
+				width 100%
+			h2.LOCAAP-titulo.icon-Info2
+				font-size 22px
+				height auto
+				width 100%
+			h5.LOCAAP-imgDescrip
+				font-size 16px
+				height auto
+				width 100%
+			figcaption.LOCAAP-imgDescrip
+				font-size 16px
+				height auto
+				width 100%
+			article.LOCAAP-article
+				height 291px
+				width 220px
+@media screen and (min-width:325px)
+	html
+		height auto
+		width 100%
+		body
+			width 100%
+			article.LOCAAP-article
+				height auto
+				width 160px	
+@media screen and (min-width:400px)
+	html
+		height auto
+		width 100%
+		body
+			width 100%
+			#Avatar
+				.MainMenu
+					height auto
+					width 200px
+				.Avatar-container
+					margin auto
+				.Avatar-titulo
+					font-size 24px
+					height auto
+					width 60%			
+			.Con
+				width 100%
+				&-titulo
+					font-size 22px
+					height auto
+				&-Article
+					width 100%
+				&-texto
+					font-size 16px
+					font-weight normal
+				&-linkTwitter
+					font-size 16px
+				&-linkFacebook
+					font-size 16px
+				.Founder
+					width 320px
+				.Founder-img
+					width 200px
+				.Founder1
+					width 320px
+				.Founder1-img
+					width 200px
+				&-aliance
+					width 320
+				&-alianceImg1
+					width 100%
+			#Footer
+				.Footer
+					width 100%
+					&-titulo
+						font-size 22px
+						height auto
+					&-texto
+						font-size 16px
+					&-description
+						font-size 16px
+			.FooterCla
+				width 100%
+				&-titulo
+					font-size 22px
+					height auto
+				&-texto
+					font-size 16px
+				&-description
+					font-size 16px											
+			.p-Artext
+				font-size 16px
+				margin-left 5%
+				margin-right 5%
+				text-align center		
+			#vimeoplayer
+				min-height 280px
+				width 95%
+			#ytplayer
+				min-height 280px
+				width 95%
+			.Con-imgContainer
+				margin 0
+				width auto	
+			.Con-img
+				width 100%
+			.Con-ArticleAn
+				width 320px
+			.Columdrop
+				background ElTiempo
+				margin-top 1em
+			h2.Columdrop-titulo.icon-Anuncios,
+			h2.ColumdropV-titulo.icon-Anuncios,
+			h2.ColumdropAz-titulo.icon-Anuncios
+				font-size 22px
+				height auto
+			.Columdrop-row
+				margin-bottom 1em
+				&.Yellow
+					padding-left 1%
+					padding-right 1%
+					width 300px
+					display inline-block
+			.ColumdropV
+				margin-top 0px
+			.ColumdropV-row
+				margin-bottom 1em
+				&.Green
+					padding-left 1%
+					padding-right 1%
+					width 300px
+					display inline-block
+			.ColumdropAz
+				margin-top 0px
+				padding-bottom 0px
+			.ColumdropAz-row
+				margin-bottom 1em
+				&.Blue
+					padding-left 1%
+					padding-right 1%
+					width 300px
+					display inline-block
+			.Columdrop-text
+				font-size 16px
+				font-weight normal
+			.is-Fig
+				font-size 80%
+				margin-left 5%
+				margin-right 5%
+				text-align center
+@media screen and (min-width:500px)
+	html
+		height auto
+		width 100%
+		body
+			width 100%
+			#Avatar
+				.MainMenu
+					height auto
+					width 200px
+				.Avatar-container
+					margin auto
+				.Avatar-titulo
+					font-size 24px
+					height auto
+					width 250px			
+			.Con
+				width 100%
+				&-titulo
+					font-size 22px
+					height auto
+				&-Article
+					width 100%
+				&-texto
+					font-size 16px
+					font-weight normal
+				&-linkTwitter
+					font-size 16px
+				&-linkFacebook
+					font-size 16px
+				.Founder
+					width 320px
+				.Founder-img
+					width 200px
+				.Founder1
+					width 320px
+				.Founder1-img
+					width 200px
+				&-aliance
+					width 320px
+				&-alianceImg1
+					width 100%
+			#Footer
+				.Footer
+					width 100%
+					&-titulo
+						font-size 22px
+						height auto
+					&-texto
+						font-size 16px
+					&-description
+						font-size 16px
+			.FooterCla
+				width 100%
+				&-titulo
+					font-size 22px
+					height auto
+				&-texto
+					font-size 16px
+				&-description
+					font-size 16px											
+			.p-Artext
+				font-size 16px
+				margin-left 5%
+				margin-right 5%
+				text-align center		
+			#vimeoplayer
+				min-height 280px
+				width 95%
+			#ytplayer
+				min-height 280px
+				width 95%
+			.Con-imgContainer
+				margin 0
+				width auto	
+			.Con-img
+				width 100%
+			.Con-ArticleAn
+				width 330px
+			.Columdrop
+				background ElTiempo
+				margin-top 1em
+			h2.Columdrop-titulo.icon-Anuncios,
+			h2.ColumdropV-titulo.icon-Anuncios,
+			h2.ColumdropAz-titulo.icon-Anuncios
+				font-size 22px
+				height auto
+			.Columdrop-row
+				margin-bottom 1em
+				&.Yellow
+					padding-left 1%
+					padding-right 1%
+					width 300px
+					display inline-block
+			.ColumdropV
+				margin-top 0px
+			.ColumdropV-row
+				margin-bottom 1em
+				&.Green
+					padding-left 1%
+					padding-right 1%
+					width 300px
+					display inline-block
+			.ColumdropAz
+				margin-top 0px
+				padding-bottom 0px
+			.ColumdropAz-row
+				margin-bottom 1em
+				&.Blue
+					padding-left 1%
+					padding-right 1%
+					width 300px
+					display inline-block
+			.Columdrop-text
+				font-size 16px
+				font-weight normal
+			.is-Fig
+				font-size 80%
+				margin-left 5%
+				margin-right 5%
+				text-align center
+@media screen and (min-width:665px)
+			.Columdrop
+				.Columdrop-row
+					margin-bottom 1em
+					&.Yellow
+						padding-left 1%
+						padding-right 1%
+						width 300px
+						display inline-block
+			.ColumdropV
+				.ColumdropV-row
+					margin-bottom 1em
+					&.Green
+						padding-left 1%
+						padding-right 1%
+						width 300px
+						display inline-block
+			.ColumdropAz
+				.ColumdropAz-row
+					margin-bottom 1em
+					&.Blue
+						padding-left 1%
+						padding-right 1%
+						width 300px
+						display inline-block	
+@media screen and (min-width:700px)
+	html
+		height auto
+		width 100%
+		body
+			width 100%
+			#Avatar
+				.MainMenu
+					height auto
+					width 200px
+				.Avatar-container
+					margin auto
+				.Avatar-titulo
+					font-size 24px
+					height auto
+					width 250px			
+			.Con
+				width 100%
+				&-titulo
+					font-size 22px
+					height auto
+				&-Article
+					width 100%
+				&-texto
+					font-size 16px
+					font-weight normal
+				&-linkTwitter
+					font-size 16px
+				&-linkFacebook
+					font-size 16px
+				.Founder
+					width 320px
+				.Founder-img
+					width 200px
+				.Founder1
+					width 320px
+				.Founder1-img
+					width 200px
+				&-aliance
+					width 320px
+				&-alianceImg1
+					width 100%
+			#Footer
+				.Footer
+					width 100%
+					&-titulo
+						font-size 22px
+						height auto
+					&-texto
+						font-size 16px
+					&-description
+						font-size 16px
+			.FooterCla
+				width 100%
+				&-titulo
+					font-size 22px
+					height auto
+				&-texto
+					font-size 16px
+				&-description
+					font-size 16px											
+			.p-Artext
+				font-size 16px
+				margin-left 5%
+				margin-right 5%
+				text-align center		
+			#vimeoplayer
+				min-height 457px
+				width 95%
+			#ytplayer
+				min-height 457px
+				width 95%
+			.Con-imgContainer
+				margin 0
+				width auto	
+			.Con-img
+				width 100%
+			.Con-ArticleAn
+				width 330px	
+@media screen and (min-width:769px)
+	html
+		height auto
+		width 100%
+		body
+			width 100%
+			#Avatar
+				.MainMenu
+					display inline-block
+					height 50px
+					left auto 
+					right 0px
+					width 400px
+				.MainMenu-item
+					display inline-block
+					margin 0
+					padding 0 .5em
+					top 0px
+				.MainMenu-link
+					height 100%
+					top 0px
+@media screen and (min-width:845px)
+	html
+		height auto
+		width 100%
+		body
+			width 100%
+			#vimeoplayer
+				min-height 457px
+				text-align center
+				width 802.7px
+			#ytplayer
+				min-height 457px
+				text-align center
+				width 802.7px
+			.Con-Article
+				text-align center
+			.Con-imgContainer
+				margin 0
+				width 845px	
+			.Con-img
+				width 100%
+			.LOCAAP-imgContainer
+				width 845px
+				.LOCAAP-imgExt
+					width 100%
+@media screen and (min-width:846px)
+		body
+			width 100%
+		section
+			.Con-Article
+				.Con-imgContainer
+					margin 0 auto 0 auto
+					text-align center
+					width 845px	
+				.Con-img
+					width 845px
+@media screen and (min-width:901px)
+			.Columdrop
+				.Columdrop-row
+					margin-bottom 1em
+					&.Yellow
+						padding-left 1%
+						padding-right 1%
+						width 300px
+						display inline-block
+			.ColumdropV
+				.ColumdropV-row
+					margin-bottom 1em
+					&.Green
+						padding-left 1%
+						padding-right 1%
+						width 300px
+						display inline-block
+			.ColumdropAz
+				.ColumdropAz-row
+					margin-bottom 1em
+					&.Blue
+						padding-left 1%
+						padding-right 1%
+						width 300px
+						display inline-block
+@media screen and (min-width:999px)
+			.Columdrop
+				.Columdrop-row
+					margin-bottom 1em
+					&.Yellow
+						padding-left 1%
+						padding-right 1%
+						width 300px
+						display inline-block
+			.ColumdropV
+				.ColumdropV-row
+					margin-bottom 1em
+					&.Green
+						padding-left 1%
+						padding-right 1%
+						width 300px
+						display inline-block
+			.ColumdropAz
+				.ColumdropAz-row
+					margin-bottom 1em
+					&.Blue
+						padding-left 1%
+						padding-right 1%
+						width 300px
+						display inline-block
+@media screen and (min-width:1010px)
+	.LOCAAP-imgContainer
+		padding-left 5%
+		padding-right 5%
+@media screen and (min-width:1100px)
+		html 
+			border-color Green_Aly
+			border-style solid
+			height auto
+			margin-top 0px
+			margin-left auto
+			margin-right auto
+			width 1100px
+			nav.Canvas
+				left auto
+				right auto
+				width 1100px
+				.Header
+					.MainMenu
+						height 50px
+						margin 0px
+						left auto
+						line-height 50px
+						position absolute
+						right 0px
+						top 0px
+						width auto
+						&-item
+							top 0px
+							padding 0px 8px
+							border 0px
+							margin 0px
+							display inline-block
+						&-link
+							top 0px	
+				.Header-button
+					&.is-active
+						display none
+						overflow hidden		
