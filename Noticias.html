@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>ALY INMOBILIARIA: Perfil</title>
+	<meta charset="utf-8" />
+    <meta name="Title" content="ALY INMOBILIARIA SAS" />
+	<meta description="ALY INMOBILIARIA SAS, presenta su Sección de Noticias, en donde todo(a)s pueden enterarse de nuestras Promociones, Ofertas Especiales, Opinión sobre temas de Política, Economía, Deportes, Música y otros temas de interes. Bienvenido(a)s." />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="shortcut icon" href="static/images/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="static/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="static/css/portafolio.css" />
+</head>
+<body>
+    <nav class="Canvas">
+        <header class="Header Verde_A">
+            <ul class="MainMenu" id="menu">
+                <li class="MainMenu-item">
+                    <a class="MainMenu-link" href="#Perfil">
+                        <b> Perfil</b>
+                    </a>
+                </li>
+                <li class="MainMenu-item">
+                    <a class="MainMenu-link" href="trabajos.html">
+                         <b> Trabajos</b>
+                    </a>
+                </li>
+                <li class="MainMenu-item">
+                    <a class="MainMenu-link" href="clasificados.html">
+                        <b> Clasificados</b>
+                    </a>
+                </li>
+                <li class="MainMenu-item">
+                    <a class="MainMenu-link" href="noticias.html">
+                        <b> Noticias</b>
+                    </a>
+                </li>
+            </ul>
+            <div class="Header-logoCon">
+                <img class="Header-logo1" src="static/images/favicon.png" height="auto" width="45" alt="Logo de ALY INMOBILIARIA SAS" class="Header-log">
+                <p class="Header-logoTexto">ALY</p>
+            <button class="Header-button is-active icon-Menu" id="showMenu"></button>
+            <button class="Header-button icon-Menu" id="hideMenu"></button>
+        </header>
+    </nav>
+    <section id="Avatar" class="Avatar">
+        <figure class="Avatar-container">
+            <img class="Avatar-img" src="static/images/favicon.png" height="auto" width="110" alt="Logo de ALY INMOBILIARIA SAS" content="Logo de ALY INMOBILIARIA SAS">
+        </figure>
+        <h1 class="Avatar-titulo">ALY INMOBILIARIA</h1>
+    </section>
+    <section class="Con" align="center">
+        <h2 id="#Perfil" class="Con-titulo icon-Noticias"> NOTICIAS</h2>
+           <article class="Con-Article">
+               <p>ALY INMOBILIARIA SAS, presenta su Sección de Noticias, en donde todo(a)s pueden enterarse de nuestras Promociones, Ofertas Especiales, Opinión sobre temas de Política, Economía, Deportes, Música y otros temas de interes. Ve a nuestro Menú y enterate de nuestra actividad. Disculpe por los inconvenientes.<br>
+                <b>Jorge Mario Carrillo Lopez</b><br>
+                <b>Gerente General Suplente</b></p>
+               <h3>¡MUY PRONTO!</h3>
+            </article>
+    </section>
+    <footer id="Footer" class="Footer" align="center">
+        <h2 id="Perfil" class="Footer-titulo icon-Contacto"> CONTACTO</h2>
+                <p class="Footer-texto"><b>Si buscas Información sobre Nuestros Servicios, si tienes alguna Sugerencia o si quieres Trabajar con nosotros, escribenos o llamanos en Bogotá:</b>
+                <p class="Footer-description icon-Horario"> <b>Lunes A Viernes / 8:30am - 16:30pm</b></p>
+                <p class="Footer-description icon-Mail"> <b>alyinmobiliariasas@gmail.com</b></p>
+                <p class="Footer-description icon-Tel"> <b>(1)6032848</b></p>
+                <p class="Footer-description"><b>2014</b></p>
+    </footer>
+    <script src="hammer.min.js"></script>
+    <script type="text/javascript">
+        var $buttonShowMenu = document.getElementById("showMenu");
+        var $buttonHideMenu = document.getElementById("hideMenu");
+        var $menu = document.getElementById("menu");
+
+        var $body = document.querySelector("body");
+        var body = new Hammer ($body);
+
+
+        var ShowMenu = function(){
+            $buttonShowMenu.classList.remove("is-active");
+            $buttonHideMenu.classList.add("is-active");
+            $menu.classList.add("is-active");
+        }
+        var HideMenu = function(){
+            $buttonShowMenu.classList.add("is-active");
+            $buttonHideMenu.classList.remove("is-active");
+            $menu.classList.remove("is-active");            
+        }
+        $buttonShowMenu.addEventListener("click", ShowMenu);
+        $buttonHideMenu.addEventListener("click", HideMenu);
+        body.on("panright", function(){
+            alert("Abriste Menú");
+        });
+        body.on("panleft", function(){
+            alert("Cerraste Menú");
+        });
+    </script>
+</body>
+</html>

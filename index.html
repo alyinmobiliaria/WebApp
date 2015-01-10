@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <link rel="shortcut icon" href="static/images/favicon.png" type="image/png" />
     <link rel="stylesheet" href="static/css/normalize.css" />
-	<link rel="stylesheet" type="text/css" href="static/css/portafolio.css" />
+	<link rel="stylesheet" type="text/css" href="static/css/portafolio.css?v=1.0" />
 </head>
 <body>
     <nav class="Canvas">
@@ -86,7 +86,7 @@
         <h2 id="Perfil" class="Con-titulo icon-Alianzas"> ALIANZAS</h2>
             <article class="Con-Article">
                 <figure class="Con-aliance">
-                    <img class="Con-alianceImg1" src="static/images/logodeaura.png" width="260">
+                    <img class="Con-alianceImg1" src="static/images/Logodeaura.png" width="260">
                 </figure>
             </article>
     </section>
@@ -96,9 +96,10 @@
                 <p class="Footer-description icon-Horario"> <b>Lunes A Viernes / 8:30am - 16:30pm</b></p>
                 <p class="Footer-description icon-Mail"> <b>alyinmobiliariasas@gmail.com</b></p>
                 <p class="Footer-description icon-Tel"> <b>(1)6032848</b></p>
-                <p class="Footer-description"><b>2014</b></p>
+                <p class="Footer-description"><b>2015</b></p>
     </footer>
-    <script src="hammer.min.js"></script>
+    <script src="static/js/hammer.min.js"></script>
+    <script src="static/js/modernizr-2.6.2.min.js"></script>
     <script type="text/javascript">
         var $buttonShowMenu = document.getElementById("showMenu");
         var $buttonHideMenu = document.getElementById("hideMenu");
@@ -106,6 +107,12 @@
 
         var $body = document.querySelector("body");
         var body = new Hammer ($body);
+
+        var $buttonShowMenu = document.getElementById('showMenu');
+        var showMenu = new Hammer($buttonShowMenu);
+
+        var $buttonHideMenu = document.getElementById('hideMenu');
+        var hideMenu = new Hammer($buttonHideMenu);
 
 
         var ShowMenu = function(){
@@ -118,11 +125,15 @@
             $buttonHideMenu.classList.remove("is-active");
             $menu.classList.remove("is-active");            
         }
+
         $buttonShowMenu.addEventListener("click", ShowMenu);
         $buttonHideMenu.addEventListener("click", HideMenu);
 
-        body.on("panright", ShowMenu)
-        body.on("panleft", HideMenu)
+        body.on("panright tap", ShowMenu)
+        body.on("panleft tap", HideMenu)
+
+        // showMenu.on("tap", ShowMenu);
+        // hideMenu.on("tap", HideMenu);
     </script>
 </body>
 </html>

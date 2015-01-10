@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, maximum-scale=1" />
     <link rel="shortcut icon" href="static/images/favicon.png" type="image/png" />
     <link rel="stylesheet" href="static/css/normalize.css" />
-	<link rel="stylesheet" type="text/css" href="static/css/portafolio.css" />
+	<link rel="stylesheet" type="text/css" href="static/css/portafolio.css?v=1.0" />
 </head>
 <body>
     <nav class="Canvas">
@@ -67,7 +67,7 @@
                 <figure class="Con-imgContainer">
                     <img class="Con-img" src="static/images/volantedigital.png" width="920" height="auto" alt="volantedigital.png" content="volantedigital.png">
                 </figure>
-                <p class="Con-texto"><b><span class="Con-textItalic p-Artext">Pieza Publicitaria de un Volante Digital para Campaña de Facebook Ads, dirigida a Guamal Magdalena - 2014.</span></b></p>
+                <p class="Con-texto"><b><span class="Con-textItalic p-Artext">Pieza Publicitaria de un Volante Digital para Campaña de Facebook Ads, dirigida a Guamal Magdalena - 2015.</span></b></p>
             </article>
     </section>
     <footer id="Footer" class="Footer" align="center">
@@ -100,9 +100,10 @@
         }
         $buttonShowMenu.addEventListener("click", ShowMenu);
         $buttonHideMenu.addEventListener("click", HideMenu);
-
-        body.on("panright", ShowMenu)
-        body.on("panleft", HideMenu)
+        $buttonShowMenu.addEventListener("tap", ShowMenu);
+        $buttonHideMenu.addEventListener("tap", HideMenu);
+        body.on("panright", ShowMenu);
+        body.on("panleft", HideMenu);
     </script>
 </body>
 </html>

@@ -1,6 +1,5 @@
 @import "fonts.styl"
 @import "flaticon.styl"
-@import href="static/css/lightslider-master/lightSlider/css/lightSlider.css"
 Green_Aly = #00ba89
 Black_Aly = #1e120d
 Blue_Aly = #00b9e8
@@ -21,10 +20,11 @@ body
 	background lightgray
 	nav.Canvas
 		left 0
-		overflow hidden
+		// overflow hidden
 		position fixed
 		right 0 
 		top 0
+		z-index 6
 	.Header
 		background Green_Aly
 		color white
@@ -66,6 +66,7 @@ body
 			&.is-active
 				display block 
 		.MainMenu
+			display visible
 			background Green_Aly
 			height auto
 			left -200px
@@ -358,10 +359,15 @@ section.ColumdropAz
 		.icon-Reception:before
 			display block
 			left 0px
+			font-size 80px
+		.icon-Pool:before
+			display block
+			left 0px
 			font-size 80px						
 		.LOCAAP-artTitulo1
+			height 120px
 			margin-left 2%
-			font-size: 22px
+			font-size: 16px
 			color: #fff
 			border-bottom 1px solid #fff
 			padding-bottom 14px
@@ -392,52 +398,70 @@ section.ColumdropAz
 			background lightgray
 			font-style: italic
 			margin 10px 0 10px 0
+/* SLIDER */
+
 section.LOCAAP-slider
 	text-align center
 	overflow hidden
-	div#demo
-		display inline-block
-		margin-bottom 20px
-		width 958px
+	div#marco
 		border 10px solid white
 		border-radius 4px
 		box-shadow 0px 0px 25px 5px rgba(0, 0, 0, 0.3)
+		height 235px
+		margin 0 auto
 		overflow hidden
-		z-index 5
+		width 484px
 		ul
-			height 230px
+			display inline-block
+			height 235px
 			margin 0
 			padding 0
-			width 5000px
+			width 2720px
+			position relative
 			li
-				background-color Yellow_Aly
+				text-align left
+				border-right 1px solid Brown_Aly
 				float left
-				height 230px
+				height 235px
 				list-style none
 				margin 0
-				overflow hidden
-				position relative
-				top 0px
+				padding 0
 				width 160px
-	div#arrow
-		width 60px
+				line-height 235px
+				z-index 3
+				&.slide
+					background-color Yellow_Aly
+					overflow hidden
+					top 0px
+					z-index 3
+					h3.LOCAAP-artTitulo1
+						height 70px
+						line-height 30px
+						margin-bottom 20px
+	a#anterior.icon-Atras
 		background-color Yellow_Aly
-		border-radius 10%
-		position relative
-		margin-bottom 20px
-	div#arrow
-		right 45%
-		left 45% 
-	div a
-		width 60px
-		background-color transparent
 		color Brown_Aly
-		font-size 3em
+		font-size 2em
+		line-height 80px
 		text-decoration none
-	a#anterior
-		position relative
-	a#siguiente
-		position relative
+		width 72px
+		padding 11px
+		border-radius 50%
+		&.icon-Atras:hover
+			background-color Yellow_Mejor
+			font-size 2.2em
+	a#siguiente.icon-Adelante
+		background-color Yellow_Aly
+		color Brown_Aly
+		font-size 2em
+		line-height 80px
+		text-decoration none
+		width 72px
+		padding 11px
+		border-radius 50%
+		&.icon-Adelante:hover
+			background-color Yellow_Mejor
+			font-size 2.2em
 /* STYLUS DEL FOOTER DE TODOS LOS .HTML*/
 #Footer
 	background-image url("../images/footer.png")	
@@ -687,6 +711,13 @@ section.LOCAAP-slider
 				margin-left 5%
 				margin-right 5%
 				text-align center
+			section.LOCAAP-slider
+				div#marco
+					width 88%
+			h2.LOCAAP-titulo.icon-ojo
+				font-size 100%
+				height auto
+				width 100%
 			h2.LOCAAP-titulo.icon-home
 				font-size 100%
 				height auto
@@ -706,6 +737,11 @@ section.LOCAAP-slider
 			article.LOCAAP-article
 				height 291px
 				width 100%
+			section.LOCAAP-slider
+				div#marco
+					width 140px
+					li.slide
+						width 140px
 @media screen and (min-width:220px)
 	html
 		height auto
@@ -714,7 +750,12 @@ section.LOCAAP-slider
 			width 100%
 			article.LOCAAP-article
 				height 291px
-				width 220px															
+				width 220px	
+			section.LOCAAP-slider
+				div#marco
+					width 160px
+					li.slide
+						width 160px													
 @media screen and (min-width:320px)
 	html
 		height auto
@@ -855,6 +896,15 @@ section.LOCAAP-slider
 			article.LOCAAP-article
 				height 291px
 				width 220px
+			section.LOCAAP-slider
+				div#marco
+					width 300px
+					li.slide
+						width 150px
+			h2.LOCAAP-titulo.icon-ojo
+				font-size 22px
+				height auto
+				width 100%			
 @media screen and (min-width:325px)
 	html
 		height auto
@@ -985,6 +1035,11 @@ section.LOCAAP-slider
 				margin-left 5%
 				margin-right 5%
 				text-align center
+			section.LOCAAP-slider
+				div#marco
+					width 320px
+					li.slide
+						width 160px
 @media screen and (min-width:500px)
 	html
 		height auto
@@ -1106,7 +1161,14 @@ section.LOCAAP-slider
 				margin-left 5%
 				margin-right 5%
 				text-align center
+			section.LOCAAP-slider
+				div#marco
+					width 480px
+					li.slide
+						width 160px
 @media screen and (min-width:665px)
+	html
+		section
 			.Columdrop
 				.Columdrop-row
 					margin-bottom 1em
@@ -1130,7 +1192,12 @@ section.LOCAAP-slider
 						padding-left 1%
 						padding-right 1%
 						width 300px
-						display inline-block	
+						display inline-block
+			section.LOCAAP-slider
+				div#marco
+					width 480px
+					li.slide
+						width 160px	
 @media screen and (min-width:700px)
 	html
 		height auto
@@ -1210,6 +1277,11 @@ section.LOCAAP-slider
 				width 100%
 			.Con-ArticleAn
 				width 330px	
+			section.LOCAAP-slider
+				div#marco
+					width 640px
+					li.slide
+						width 160px	
 @media screen and (min-width:769px)
 	html
 		height auto
@@ -1231,6 +1303,7 @@ section.LOCAAP-slider
 				.MainMenu-link
 					height 100%
 					top 0px
+
 @media screen and (min-width:845px)
 	html
 		height auto
@@ -1257,6 +1330,7 @@ section.LOCAAP-slider
 				.LOCAAP-imgExt
 					width 100%
 @media screen and (min-width:846px)
+	html
 		body
 			width 100%
 		section
@@ -1268,6 +1342,8 @@ section.LOCAAP-slider
 				.Con-img
 					width 845px
 @media screen and (min-width:901px)
+	html
+		section
 			.Columdrop
 				.Columdrop-row
 					margin-bottom 1em
@@ -1293,6 +1369,8 @@ section.LOCAAP-slider
 						width 300px
 						display inline-block
 @media screen and (min-width:999px)
+	html
+		section
 			.Columdrop
 				.Columdrop-row
 					margin-bottom 1em
@@ -1318,41 +1396,45 @@ section.LOCAAP-slider
 						width 300px
 						display inline-block
 @media screen and (min-width:1010px)
-	.LOCAAP-imgContainer
-		padding-left 5%
-		padding-right 5%
+	html
+		section
+			.LOCAAP-imgContainer
+				padding-left 5%
+				padding-right 5%
 @media screen and (min-width:1100px)
-		html 
-			border-color Green_Aly
-			border-style solid
-			height auto
-			margin-top 0px
+	html 
+		border-color Green_Aly
+		border-style solid
+		height auto
+		margin-top 0px
+		margin-left auto
+		margin-right auto
+		width 1100px
+		nav.Canvas
 			margin-left auto
 			margin-right auto
 			width 1100px
-			nav.Canvas
-				left auto
-				right auto
-				width 1100px
-				.Header
-					.MainMenu
-						height 50px
-						margin 0px
-						left auto
-						line-height 50px
-						position absolute
-						right 0px
+			.Header
+				ul#menu.MainMenu
+					height 50px
+					margin 0px
+					left auto
+					line-height 50px
+					position absolute
+					right 0px
+					top 0px
+					width auto
+					li.MainMenu-item
 						top 0px
-						width auto
-						&-item
-							top 0px
-							padding 0px 8px
-							border 0px
-							margin 0px
-							display inline-block
-						&-link
-							top 0px	
-				.Header-button
-					&.is-active
-						display none
-						overflow hidden		
+						padding 0px 8px
+						border 0px
+						margin 0px
+						display inline-block
+						a.MainMenu-link
+							top 0px		
+	    button#showMenu.Header-button.icon-Menu.is-active
+			display none
+			overflow hidden
+	    button#hideMenu.Header-button.icon-Menu.is-active
+			display none
+			overflow hidden

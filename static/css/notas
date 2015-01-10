@@ -1,0 +1,239 @@
+	div#marco
+		display inline-block
+		margin-bottom 20px
+		width 958px
+		border 10px solid white
+		border-radius 4px
+		box-shadow 0px 0px 25px 5px rgba(0, 0, 0, 0.3)
+		overflow hidden
+		z-index 5
+		ul
+			height 230px
+			margin 0
+			padding 0
+			width 5000px
+			li
+				background-color Yellow_Aly
+				float left
+				height 230px
+				list-style none
+				margin 0
+				overflow hidden
+				position relative
+				top 0px
+				width 160px
+	div#arrow
+		width 60px
+		background-color Yellow_Aly
+		border-radius 10%
+		position relative
+		margin-bottom 20px
+	div#arrow
+		right 45%
+		left 45% 
+div a
+	width 60px
+	background-color transparent
+	color Brown_Aly
+	font-size 3em
+	text-decoration none
+a#anterior
+	position relative
+a#siguiente
+	position relative
+
+	// 
+	// 
+	// float left
+	// height 230px
+	// list-style none
+	// margin 0
+	// 
+	// position absolute	
+	// top 0px
+	// width 160px
+
+	        .Header-button
+			    &.is-active
+				    display none
+				    overflow hidden
+        <div id="marco">
+            <ul class="container">
+                1<li class="slide">
+                    <i class="icon-Reception"></i>
+                    <h3 class="LOCAAP-artTitulo1">
+                        Recepción<br>
+                        Del Edificio.
+                    </h3>
+                    <p class="LOCAAP-artDescription">
+                        <b>24 Horas</b>
+                    </p>
+                </li> 
+                 2<li class="slide">
+                    <i class="icon-Comunal"></i>
+                    <h3 class="LOCAAP-artTitulo1">
+                        Salón<br>
+                        Comunal
+                    </h3>
+
+                    <p class="LOCAAP-artDescription">
+                        <b>Hasta 70 personas</b>
+                    </p>
+                </li>
+                3<li class="slide">
+                    <i class="icon-Ascensor"></i>
+                    <h3 class="LOCAAP-artTitulo1">
+                        Ascensor<br>
+                        Del Edificio
+                    </h3>
+                    <p class="LOCAAP-artDescription">
+                        <b>Capacidad 6 personas</b>
+                    </p>
+                </li>     
+                4<li class="slide">
+                    <i class="icon-Parking"></i>
+                    <h3 class="LOCAAP-artTitulo1">
+                        Parking<br>
+                        Del Apto.
+                    </h3>
+                
+                    <p class="LOCAAP-artDescription">
+                        <b>Semicubierto</b>
+                    </p>
+                </li> 
+                5<li class="slide">
+                    <i class="icon-Comedor"></i>
+                    <h3 class="LOCAAP-artTitulo1">
+                        Comedor<br>
+                        Del Apto.
+                    </h3>
+                    <p class="LOCAAP-artDescription">
+                        <b>Hasta 6 y 8 puestos</b>
+                    </p>
+                </li>    
+                6<li class="slide">
+                    <i class="icon-Sala"></i>
+                    <h3 class="LOCAAP-artTitulo1">
+                        Sala<br>
+                        Del Apto.
+                    </h3>
+                    <p class="LOCAAP-artDescription">
+                        <b>Espacio Amplio</b>
+                    </p>
+                </li> 
+                <li class="slide">
+                    <i class="icon-Chimenea"></i>
+                    <h3 class="LOCAAP-artTitulo1">
+                        Chimenea<br>
+                        Del Apto.
+                    </h3>
+                    <p class="LOCAAP-artDescription">
+                        <b>Para Sala y Comedor</b> 
+                    </p>
+                </li>
+                <li class="slide">
+                    <i class="icon-Cocina"></i>
+                    <h3 class="LOCAAP-artTitulo1">
+                        Cocina<br>
+                        Del Apto.
+                    </h3>
+                    <p class="LOCAAP-artDescription">
+                        <b>Integral y Gas Natural</b>
+                    </p>
+                </li>
+                <li class="slide">       
+                    <i class="icon-Estudio"></i>
+                    <h3 class="LOCAAP-artTitulo1">
+                        Estudio<br>
+                         y Otros
+                    </h3>
+                    <p class="LOCAAP-artDescription">
+                        <b>Para Varios Espacios</b>
+                     </p>
+                </li>
+                <li class="slide">
+                    <i class="icon-Room"></i>
+                    <h3 class="LOCAAP-artTitulo1">
+                        Tres<br>
+                        Habitaciones
+                    </h3>
+                    <p class="LOCAAP-artDescription">
+                        <b>Pisos en Cerámica</b> 
+                    </p>
+                </li>
+                <li class="slide">
+                    <i class="icon-Closet"></i>
+                    <h3 class="LOCAAP-artTitulo1">
+                        Closets<br>
+                        Del Apto. 
+                     </h3>
+                    <p class="LOCAAP-artDescription">
+                        <b>1 por Habitación</b>  
+                    </p>
+                </li>
+                <li class="slide">
+                    <i class="icon-Restroom"></i>
+                    <h3 class="LOCAAP-artTitulo1">
+                        Baños<br>
+                        Del Apto.
+                    </h3>
+                    <p class="LOCAAP-artDescription">
+                        <b>1 Social y 1 Interno</b>
+                    </p>
+                </li>
+                <li class="slide">
+                    <i class="icon-location"></i>
+                    <h3 class="LOCAAP-artTitulo1">
+                        Dirección<br>
+                        Del Apto.
+                    </h3>
+                    <p class="LOCAAP-artDescription">
+                        <b>Calle 145 # 13A - 88</b>
+                    </p>
+                </li>
+                <li class="slide">
+                    <i class="icon-Metros"></i>
+                    <h3 class="LOCAAP-artTitulo1">
+                        Metros<br>
+                        Cuadrados
+                    </h3>
+                    <p class="LOCAAP-artDescription">
+                        <b>91 Metros</b> 
+                    </p>
+                </li>
+                <li class="slide">
+                    <i class="icon-Estrato"></i>
+                    <h3 class="LOCAAP-artTitulo1">
+                        Estrato<br>
+                        Del Apto.
+                    </h3>
+                    <p class="LOCAAP-artDescription">
+                        <b>Estrato 4</b> 
+                    </p>
+                </li>
+                <li class="slide">
+                    <i class="icon-Date"></i>
+                    <h3 class="LOCAAP-artTitulo1">
+                        Tiempo<br>
+                        De Construido
+                    </h3>
+                    <p class="LOCAAP-artDescription">
+                        <b>18 Años</b>
+                    </p>
+                </li>
+                <li class="slide">
+                    <i class="icon-Moneda"></i>
+                    <h3 class="LOCAAP-artTitulo1">
+                        Precio<br>
+                        De Venta
+                    </h3>
+                    <p class="LOCAAP-artDescription">
+                        <b>$290.000.000</b> 
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div id="arrow">
+            <a href="#" id="anterior">&laquo;</a>
+            <a href="#" id="siguiente">&raquo;</a>
+        </div>
