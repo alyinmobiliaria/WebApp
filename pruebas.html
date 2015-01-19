@@ -1,57 +1,45 @@
+
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>datepicker demo</title>
+  <title>jQuery UI Datepicker - Display inline</title>
   <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
   <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script>
+  $(function() {
+    $( "#datepicker" ).datepicker();
+  });
+  </script>
 </head>
 <body>
-<form method="post" action="https://stg.gateway.payulatam.com/ppp-web-gateway/">
-  <input name="merchantId"    type="hidden"  value="500238"   >
-  <input name="accountId"     type="hidden"  value="500538" >
-  <input name="description"   type="hidden"  value="Test PAYU"  >
-  <input name="referenceCode" type="hidden"  value="TestPayU" >
-  <input name="amount"        type="hidden"  value="3"   >
-  <input name="tax"           type="hidden"  value="0"  >
-  <input name="taxReturnBase" type="hidden"  value="0" >
-  <input name="currency"      type="hidden"  value="USD" >
-  <input name="signature"     type="hidden"  value="be2f083cb3391c84fdf5fd6176801278"  >
-  <input name="test"          type="hidden"  value="1" >
-  <input name="buyerEmail"    type="hidden"  value="test@test.com" >
-  <input name="responseUrl"    type="hidden"  value="http://www.test.com/response" >
-  <input name="confirmationUrl"    type="hidden"  value="http://www.test.com/confirmation" >
-  <input name="Submit"        type="submit"  value="Enviar" >
-</form>
-  <div id="datepicker"></div>
-  <label for="from">From</label>
-  <input type="text" id="from" name="from">
-  <label for="to">to</label>
-  <input type="text" id="to" name="to">
-  <script>
-  $( "#datepicker" ).datepicker();
-  </script>
-    <script>
-    $(function() {
-      $( "#from" ).datepicker({
-        defaultDate: "+1w",
-        changeMonth: true,
-        numberOfMonths: 3,
-        onClose: function( selectedDate ) {
-          $( "#to" ).datepicker( "option", "minDate", selectedDate );
-        }
-      });
-      $( "#to" ).datepicker({
-        defaultDate: "+1w",
-        changeMonth: true,
-        numberOfMonths: 3,
-        onClose: function( selectedDate ) {
-          $( "#from" ).datepicker( "option", "maxDate", selectedDate );
-        }
-      });
-    });
-    </script> 
+ 
+Date: <div id="datepicker"></div>
+ 
+ 
 </body>
 </html>
 
