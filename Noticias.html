@@ -51,21 +51,19 @@
     <section class="News-contenedor" align="center">
         <article class="News">
             <h1 class="News-title">DE TODO LO QUE NOS GUSTA Y QUEREMOS COMPARTIR CON USTEDES</h1>
+            <ul class="News-lista">
+                <li>
+                    <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="box_count"></div>
+                </li>
+                <li>
+                    <a class="twitter-share-button" href="https://twitter.com/share" data-url="http://goo.gl/TD7rai" data-counturl="https://dev.twitter.com/web/tweet-button" data-count="vertical">Tweet</a>
+                </li>
+                <li>
+                    <div class="g-plus" data-action="share" data-annotation="vertical-bubble" data-height="60"></div>
+                </li>
+            </ul>
             <img class="size-full wp-image-191810" alt="Junior Tube para que los niños vean contenido seguro. " src="http://contenidos.enter.co/custom/uploads/2015/01/Captura-de-pantalla-2015-01-23-a-las-3.jpg" width="660">
         </article>
-        <div class="News-compartir">
-            <ul>
-                <li>
-                    <a class="twitter-share-button" href="https://twitter.com/share">Tweet</a>
-                </li>
-                <li>
-                    <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" />
-                </li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
     </section>
 <!--     <section class="Con" align="center">
         <h2 id="#Perfil" class="Con-titulo icon-Noticias"> NOTICIAS</h2>
@@ -115,14 +113,18 @@
         // });
     </script>
     <script>
-    window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
+        window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
     </script>
     <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&appId=738956632865543&version=v2.0";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&appId=738956632865543&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script src="https://apis.google.com/js/platform.js" async defer>
+         {lang: 'es-419'}
+    </script>
 </body>
 </html>

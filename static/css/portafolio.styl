@@ -489,17 +489,6 @@ section.LOCAAP-slider
 		margin-right 2%
 	&-description
 		color white
-/*STYLUS DE NOTICIAS.HTML*/
-section.News-contenedor
-	background-color white
-	article.News
-		margin-top 44px
-		margin-left auto
-		margin-right auto
-		width 85%
-		h1.News-title
-			font-family "Oswald" sans serif
-			text-align left
 .FooterCla
 	background-image url("../images/footer.png")	
 	background-position center
@@ -599,7 +588,35 @@ section.News-contenedor
 				display block
 				font-size 14px
 				text-decoration none
-				text-transform uppercase	
+				text-transform uppercase
+/*STYLUS DE NOTICIAS.HTML*/
+section.News-contenedor
+	background-color white
+	article.News
+		border 10px solid white
+		border-radius 4px
+		box-shadow 0px 0px 25px 5px rgba(0, 0, 0, 0.3)
+		height auto
+		margin 0 auto
+		margin-left auto
+		margin-right auto
+		margin-top 48px
+		width 85%
+		h1.News-title
+			font-family "Oswald" sans serif
+			text-align center
+		ul.News-lista
+			list-style none
+			display inline-block
+			height auto
+			width 280px
+			margin-left auto
+			margin-right auto
+			li
+				float left
+				height auto
+				text-align left
+				width 90px
 @media screen and (min-width:160px)
 	html
 		height auto
