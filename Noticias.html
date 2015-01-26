@@ -78,11 +78,27 @@
         <div class="News-compartir">
             <h3 class="News-titleShare">COMPARTIR</h3>
             <p class="News-content" align="left">
-                Siguenos en nuestras Redes Sociales, te agradecemos por Compartir este contenido. Dejanos tus comentarios e impresiones. Gracias por tu visita. 
+                Si te gusto este Articulo, compartelo y ayudanos a difundirlo, estaremos agradecidos eternamente. 
             </p>
-            <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="box_count"></div>
+            <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="box_count" style="bottom: 5px;"></div>
             <a class="twitter-share-button" href="https://twitter.com/share" data-url="http://goo.gl/TD7rai" data-counturl="https://dev.twitter.com/web/tweet-button" data-count="vertical">Tweet</a>
             <div class="g-plus" data-action="share" data-annotation="vertical-bubble" data-height="60"></div>
+        </div>
+        <div class="News-redes">
+            <h3 class="News-titleRedes">SOCIAL</h3>
+            <p class="News-content" align="left">
+                Sigue mis perfiles sociales, en Facebook, Twitter y Google Plus. Sigamos en contacto. 
+            </p>
+            <div class="fb-like" data-href="https://www.facebook.com/alyinmobiliariaoficial" data-layout="button" data-action="like" data-show-faces="false" data-share="false" style="bottom: 5px;"></div>
+            <a href="https://twitter.com/ALYInmobiliaria" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" data-dnt="true">Follow</a>
+            <div class="g-follow" data-annotation="none" data-height="20" data-href="//plus.google.com/u/0/105130785399658973417" data-rel="publisher"></div>
+        </div>
+        <div class="News-comments">
+            <h3 class="News-titleShare">¿QUE OPINAS?</h3>
+            <p class="News-content" align="left">
+                Tu opinión es muy importante y valiosa para nosotros, por eso expresate respetuosamente hacía nuestros Editores y Lectores.
+            </p>
+            <div class="fb-comments" data-href="http://www.alyinmobiliaria.com/Noticias" data-width="100%" data-numposts="5" data-colorscheme="light"></div>
         </div>
     </section>
     <footer id="Footer" class="Footer" align="center">
@@ -122,6 +138,7 @@
         //     alert("Cerraste Menú");
         // });
     </script>
+<!--JAVASCRIPT PARA COMPARTIR CONTENIDOS-->
     <script>
         window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
     </script>
@@ -136,5 +153,29 @@
     <script src="https://apis.google.com/js/platform.js" async defer>
          {lang: 'es-419'}
     </script>
+<!--JAVASCRIPT PARA REDES SOCIALES-->
+    <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&appId=738956632865543&version=v2.0";
+         fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+    </script>
+    <script src="https://apis.google.com/js/platform.js" async defer>
+          {lang: 'es-419'}
+    </script>
+<!--JAVASCRIPT PARA ESCRIBIR COMENTARIOS-->
+    <script>(function(d, s, id) {
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) return;
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&appId=738956632865543&version=v2.0";
+         fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+    </script>
+
 </body>
 </html>
