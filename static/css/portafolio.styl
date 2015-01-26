@@ -1,6 +1,7 @@
 @import "fonts.styl"
 @import "flaticon.styl"
-@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300)
+@import url(http://fonts.googleapis.com/css?family=Crimson+Text)
 Green_Aly = #00ba89
 Black_Aly = #1e120d
 Blue_Aly = #00b9e8
@@ -601,22 +602,68 @@ section.News-contenedor
 		margin-left auto
 		margin-right auto
 		margin-top 48px
-		width 85%
-		h1.News-title
-			font-family "Oswald" sans serif
-			text-align center
-		ul.News-lista
-			list-style none
-			display inline-block
-			height auto
-			width 280px
-			margin-left auto
-			margin-right auto
-			li
-				float left
+		width 75%
+		overflow hidden
+		div.News-parte1
+			margin-bottom 20px
+			h1.News-title
+				font-family "Oswald" sans serif
+				text-align center
+				margin-bottom
+			p.News-subtitle
+				font-family "oswald" light
+				color #505050
+				align left
+			time.News-publicDate
+				background-color Green_Aly
+				color white
+				font-size 12px
+				margin-bottom 12px
+		div.News-parte2
+			figcaption
+				font-family "oswald" light
+				a
+					text-decoration none
+					color Orange_Aly
+		div.News-parte3		
+			p.News-content
+				align left
+				color #666
+				font-family "Crimsom Text" light
+				font-size 22px
 				height auto
-				text-align left
-				width 90px
+				margin-left 8%
+				margin-right 8%
+				width 90%
+		div.News-autorBox
+			figcaption.News-autorName
+				font-family "oswald" light
+			a
+				text-decoration none
+				color Orange_Aly
+		div.News-compartir
+			background-color Red_Mejor		
+			ul.News-lista
+				list-style none
+				display inline-block
+				height auto
+				width 100%
+				margin-left auto
+				margin-right auto
+				li
+					float left
+					height auto
+					text-align left
+					width 30%
+					div.fb-share-button
+						align center
+						background-color lightgray
+					a.twitter-share-button
+						align center
+						background-color lightgray
+					div.g-plus
+						align center
+						background-color lightgray
 @media screen and (min-width:160px)
 	html
 		height auto
