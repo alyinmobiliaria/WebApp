@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>#TOPVALLENATO</title>
+    <title>TOP</title>
     <meta charset="utf-8" />
-    <meta name="Title" content="#TOPVALLENATO" />
-    <meta description="#TOPVALLENATO: Ranking de las canciones vallenatas con más difusión en las emisoras del FM en las ciudades más importantes de Colombia. La consulta se hace al Ranking y/o Top de canciones Vallenatas y otros Generos, de los Medios Radiales, Olimpica Estéreo, Radio Uno y National-Report, desde sus portales web de información. Este ranking sera actualizado semanalmente. Éxitos Totales y Bendiciones Infinitas pata todo(a)s." />
+    <meta name="Title" content="TOP" />
+    <meta description="TOP: Servicio de Audio Streaming y Vídeo VOD de las canciones más escuchadas en las Emisoras de Radio FM y la TV. Este ranking sera actualizado semanalmente." />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <link rel="shortcut icon" href="static/images/favicon.png" type="image/png" />
     <link rel="stylesheet" href="static/css/normalize.css" />
@@ -43,6 +43,12 @@
         </header>
     </nav>
     <section id="Avatar-CE" class="Avatar-CE">
+        <figure class="Avatar-containerCE">
+            <img class="Avatar-img" src="static/images/avatarCE.png" height="auto" width="200" alt="Logo de ALY INMOBILIARIA SAS" content="Logo de CARDÓN ESTÉREO - ALY">
+        </figure>
+    </section>
+    <section id="Avatar-CE" class="Avatar-CE">
+        <h1>#TOPVALLENATO</h1>
         <figure class="Avatar-containerCE">
             <img class="Avatar-img" src="static/images/avatarCE.png" height="auto" width="200" alt="Logo de ALY INMOBILIARIA SAS" content="Logo de CARDÓN ESTÉREO - ALY">
         </figure>
