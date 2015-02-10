@@ -1,5 +1,6 @@
 @import "fonts.styl"
 @import "flaticon.styl"
+
 // @import "portafolio.styl"
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300)
 @import url(http://fonts.googleapis.com/css?family=Crimson+Text)
@@ -24,6 +25,7 @@ Blue_TW = #55acee
 Up_Aly = #00C600
 Down_Aly = #FF0512
 Neutro_Aly = #B3B3B3
+
 /* MODULO SCREEN 160PX */
 
 @media screen and (min-width:160px)
@@ -117,218 +119,195 @@ Neutro_Aly = #B3B3B3
 				.Avatar-img
 					padding-top 37px
 					width 100%
-		section.Eslogan
-			.Eslogan-title
-				background Green_Aly
-				color white
-				font-family Oswald
-				font-weight 700
-				margin-top 0px
-				padding-right 20px
-				text-align right
-			p.Eslogan-text
-				font-family Bitter 
-				font-size 18px
-				font-weight 400
-				text-align center
-			p.Eslogan a
-				text-decoration none	
-		section.Anuncio
-			.Anuncio-title
-				background Blue_TW
-				color white
-				font-family Oswald
-				font-weight 700
-				padding-right 20px
-				text-align right
-			.Anuncio-texto
-				font-family Bitter
-				font-size 18px
-				margin-left auto
-				margin-right auto
-				width 90%
-			.Anuncio-texto a
-				color Blue_Aly
-				text-decoration none
-		section.Publicidad
-			text-align center
-			.Publicidad-title
-				background Red_Mejor
-				color white
-				font-family Oswald
-				font-weight 700
-				padding-right 20px
-				text-align right
-				font-size 1.5em
-			article.Publicidad-arti
-				background Yellow_Exito
-				display inline-block
-				width 160px
-				margin-bottom 10px
-				.Publicidad-itemTitle
-					margin-top 0px
-					background Red_Mejor
-					color Yellow_Exito
-					text-align center
-					font-size 1.5em
-				img
-					width 90%
-					margin-left auto
-					margin-right auto
-				a 
-					text-decoration none
-					color black
-					font-weight bold
-		footer.Footer
-			font-family overlock
-			text-align center
-			background black
-			.Footer-titulo
-				background black
-				color white
-			.Footer-description
-				color white		
-				font-size 14px
-				
-/* #TOPVALLENATO */
-
 		h1.TOP
 			background black
 			color white
-			font-family Oswald
-			font-size 1.5em
 			text-align center
+			font-size 100%
 		section.Ranking
-			width 100%
-			overflow hidden
-			display inline-block
-			text-align center
-			margin-left auto
-			margin-right auto
-			h2.Number
-				background white
-				float left
-				margin-top 0px
-				text-align right
-				width 100%
-			article.Artista
-				background lightgray
-				width 100%
-				overflow hidden
-				img.Album-Cover
-					width 100%
-				audio.Artista-Track
-					width 100%
+			background black
+			.flex-container
+				padding 0px
+				margin 0px
+				list-style none
+				display -webkit-box
+				display -moz-box;
+				display -ms-flexbox
+				display -webkit-flex
+				display flex
+				-webkit-flex-flow row wrap
+				justify-content space-around								
+				.flex-item
 					background black
-					margin 0px
-				iframe.ytplayer
-					width 160px
-					height auto
-				h3.Artistas-Nombres
-					font-family Oswald				
-					margin 0px
-					text-align right
-					padding-right 20px
-					background black
-					color white
-					font-size 1.5em
-				figure.Cantante
-					width 100%
-					margin 0px
-					img.Cantante-Avatar
-						width 100%
-						float left
-					figcaption.Cantante-Nombre
-						a
-							text-decoration none
-							font-family Oswald
-							width 100%
-							color black
-							font-size 18px
-						p.Cantante-Cuenta
-							font-size 100%
-							margin-top 0px
-							color black
-							font-size 18px
-				ul.Stats
-					background white
-					margin-left auto
-					margin-right auto
-					width 100%
-					text-align center
 					padding 0px
-					margin 0px
-					li
-						font-family Oswald
+					width 100%
+					height auto
+					margin-top 0px
+					color: white
+					font-weight bold
+					.Number
+						background black
+						color white
+						margin-top 0px
+						text-align right
+						font-size 100%
+						margin-bottom 0px
+						padding-right 20px
+					.Artistas-Nombres
+						background white
+						color black
+						margin-top 0px
+						text-align center
+						font-size 100%
+						margin-bottom 0px
+					.Album-Cover
+						width 100%
+					.Artista-Track
+						width 100%
+						margin-right auto
+						margin-left auto
+					.Artistas-Stats
+						background Red_Mejor
+						text-align right
+						padding-right 30px
+						font-size 100%
+					.Stats
 						list-style none
-					.Radio
-						background lightgray
-						color Black_Aly
-					.Video
-						background lightgray
-						color Black_Aly
-					.Votos
-						background lightgray
-						color Black_Aly
-					.Estado
-						background Up_Aly
-						border-radius 3px
-						
-/* MODULO SCREEN 220PX */
+						width 100%
+						padding 0px
+						font-size 100%
+						li
+							margin-bottom 20px	
+						.Radio	
+							text-align left
+							padding-left 10px
+							width auto
+						.Video
+							text-align left
+							padding-left 10px
+							width auto
+						.Votos
+							text-align left
+							padding-left 10px
+							width auto
+						.Estado
+							text-align center
+							color white
+							background Up_Aly
+							padding 10px
+		.Footer
+			text-align center
+			background black
+			.Footer-titulo
+				color white
+				margin-top 10px
+				font-size 100%
+			.Footer-description
+				color white
+				font-size 10px
+				font-weight bold
+
+/* 	MODULO SCREEN 220PX */
 
 @media screen and (min-width:220px)
 	html
 		background black
 		body
 			background white
-		nav.Canvas
-			left 0
-			// overflow hidden
-			position fixed
-			right 0 
-			top 0
-			z-index 6
-		.Header
+		h1.TOP
 			background black
 			color white
-			height 30px
-			line-height 30px
-			padding 10px 0
-			position relative	
-			&-logoCon
-				margin 0
-				top 0
-				width 200px
-			&-logoTexto
-				display block
-				font-size 30px
-				left 60px
-				line-height 40px
-				margin 0
-				position absolute
-				text-shadow 0 0 10px lightgray
-				top 6px
-			&-logo1
-				display block
-				left 5px
-				margin 0
-				position absolute
-				top 2px
-				z-index 10px
-				
-			&-button
-				background black
-				border none	
+			text-align center
+			font-size 120%
+		section.Ranking
+			background black
+			.flex-container
+				padding 0px
+				margin 0px
+				list-style none
+				display -webkit-box
+				display -moz-box;
+				display -ms-flexbox
+				display -webkit-flex
+				display flex
+				-webkit-flex-flow row wrap
+				justify-content space-around								
+				.flex-item
+					background black
+					padding 0px
+					width 100%
+					height auto
+					margin-top 0px
+					color: white
+					font-weight bold
+					.Number
+						background black
+						color white
+						margin-top 0px
+						text-align right
+						font-size 110%
+						margin-bottom 0px
+					.Artistas-Nombres
+						background white
+						color black
+						margin-top 0px
+						text-align center
+						font-size 104%
+						margin-bottom 0px
+					.Album-Cover
+						width 100%
+					.Artista-Track
+						width 100%
+						margin-right auto
+						margin-left auto
+					.Artistas-Stats
+						background Red_Mejor
+						text-align right
+						padding-right 30px
+						font-size 110%
+					.Stats
+						list-style none
+						width 100%
+						padding 0px
+						font-size 100%
+						li
+							margin-bottom 20px	
+						.Radio	
+							text-align left
+							padding-left 10px
+							width auto
+						.Video
+							text-align left
+							padding-left 10px
+							width auto
+						.Votos
+							text-align left
+							padding-left 10px
+							width auto
+						.Estado
+							text-align center
+							color white
+							background Up_Aly
+							padding 10px
+		.Footer
+			text-align center
+			background black
+			.Footer-titulo
 				color white
-				display none
-				font-size 30px
-				font-weight normal
-				padding 0
-				position absolute
-				right 5px
-				top 10px
-				&.is-active
-					display block 
+				margin-top 10px
+				font-size 110%
+			.Footer-description
+				color white
+				font-size 14px
+				font-weight bold
+				
+/* 	MODULO SCREEN 320PX */
+
+@media screen and (min-width:320px)
+	html
+		background black
+		body
+			background white
 		.MainMenu
 			display visible
 			background black
@@ -341,7 +320,7 @@ Neutro_Aly = #B3B3B3
 			position fixed
 			top 50px
 			transition .2s
-			width 165px
+			width 200px
 			&.is-active
 				left 0
 			&-item
@@ -363,144 +342,155 @@ Neutro_Aly = #B3B3B3
 				margin-bottom 0px
 				margin-left auto
 				margin-right auto
-				width 160px
+				width 200px
 				.Avatar-img
 					padding-top 37px
 					width 100%
-		section.Eslogan
-			.Eslogan-title
-				background Green_Aly
-				color white
-				font-family Oswald
-				font-weight 700
-				margin-top 0px
-				padding-right 20px
-				text-align right
-			p.Eslogan-text
-				font-family Bitter 
-				font-size 18px
-				font-weight 400
-				text-align center
-			p.Eslogan a
-				text-decoration none	
-		section.Anuncio
-			.Anuncio-title
-				background Blue_TW
-				color white
-				font-family Oswald
-				font-weight 700
-				padding-right 20px
-				text-align right
-			.Anuncio-texto
-				font-family Bitter
-				font-size 18px
-				margin-left auto
-				margin-right auto
-				width 90%
-			.Anuncio-texto a
-				color Blue_Aly
-				text-decoration none
-		section.Publicidad
-			text-align center
-			.Publicidad-title
-				background Red_Mejor
-				color white
-				font-family Oswald
-				font-weight 700
-				padding-right 20px
-				text-align right
-				font-size 1.5em
-			article.Publicidad-arti
-				background Yellow_Exito
-				display inline-block
-				width 160px
-				margin-bottom 10px
-				.Publicidad-itemTitle
-					margin-top 0px
-					background Red_Mejor
-					color Yellow_Exito
-					text-align center
-					font-size 1.5em
-				img
-					width 90%
-					margin-left auto
-					margin-right auto
-				a 
-					text-decoration none
-					color black
-					font-weight bold
-		footer.Footer
-			font-family overlock
-			text-align center
-			background black
-			.Footer-titulo
-				background black
-				color white
-			.Footer-description
-				color white		
-				font-size 14px
-				
-/* #TOPVALLENATO */
-
 		h1.TOP
 			background black
 			color white
-			font-family Oswald
-			font-size 1.8em
 			text-align center
-		section.Ranking
+			font-size 180%
 			width 100%
-			overflow hidden
-			display inline-block
-			text-align center
-			margin-left auto
-			margin-right auto
-			h2.Number
-				background white
-				float left
-				margin-top 0px
-				text-align right
-				width 100%
-				font-size 1.8em
-			article.Artista
-				background lightgray
-				width 100%
-				overflow hidden
-				img.Album-Cover
-					width 100%
-				audio.Artista-Track
-					width 100%
+		section.Ranking
+			background black
+			margin-bottom 20px
+			.flex-container
+				padding 0px
+				margin 0px
+				list-style none
+				display -webkit-box
+				display -moz-box;
+				display -ms-flexbox
+				display -webkit-flex
+				display flex
+				-webkit-flex-flow row wrap
+				justify-content space-around								
+				.flex-item
 					background black
-					margin 0px
-				h3.Artistas-Nombres
-					font-family Oswald				
-					margin 0px
-					text-align right
-					padding-right 20px
-					background black
-					color white
-					font-size 20px
-				ul.Stats
-					background white
-					margin-left auto
-					margin-right auto
-					width 100%
-					text-align center
 					padding 0px
-					margin 0px
-					font-size 20px
-					li
-						font-family Oswald
+					width 320px
+					height auto
+					margin-top 0px
+					color: white
+					font-weight bold
+					margin-right auto
+					margin-left auto
+					.Number
+						background black
+						color white
+						margin-top 0px
+						text-align right
+						font-size 180%
+						margin-bottom 0px
+					.Artistas-Nombres
+						background white
+						color black
+						margin-top 0px
+						text-align center
+						font-size 140%
+						margin-bottom 0px
+					.Album-Cover
+						width 320px
+					.Artista-Track
+						width 320px
+						margin-right auto
+						margin-left auto
+					.Artistas-Stats
+						background Red_Mejor
+						text-align right
+						padding-right 30px
+						font-size 160%
+						
+					.Stats
 						list-style none
-					.Radio
-						background lightgray
-						color Black_Aly
-					.Video
-						background lightgray
-						color Black_Aly
-					.Votos
-						background lightgray
-						color Black_Aly
-					.Estado
-						background Up_Aly
-						border-radius 3px
+						width 320px
+						padding 0px
+						margin-left auto
+						margin-right auto
+						li
+							width 100%
+							margin-bottom 20px	
+						.Radio
+							font-size 16px
+							font-weight bold	
+							text-align left
+							padding-left 10px
+							width auto
+						.Video
+							font-size 16px
+							font-weight bold
+							text-align left
+							padding-left 10px
+							width auto
+						.Votos
+							font-size 16px
+							font-weight bold
+							text-align left
+							padding-left 10px
+							width auto
+						.Estado
+							font-size 16px
+							font-weight bold
+							text-align center
+							color white
+							background Up_Aly
+							padding 10px
+							width auto
+		.Footer
+			text-align center
+			background black
+			.Footer-titulo
+				color white
+				margin-top 10px
+				font-size 150%
+			.Footer-description
+				color white
+				font-size 16px
+				font-weight bold
+				
+/* 	MODULO SCREEN 320PX */
+
+@media screen and (min-width:640px)
+	html
+		background black
+		body
+			background white
+		.MainMenu
+			display visible
+			background black
+			height auto
+			left -200px
+			list-style none
+			margin 0
+			padding 0
+			position absolute
+			position fixed
+			top 50px
+			transition .2s
+			width 200px
+			&.is-active
+				left 0
+			&-item
+				-webkit-transition .2s
+				height 50px
+				line-height 50px
+				text-align center
+				text-shadow 0 0 10px Verde_D
+				&:hover
+					background lightgray	
+			&-link
+				color white
+				display block
+				font-size 14px
+				text-decoration none
+				text-transform uppercase
+		section.Avatar-CE
+			figure.Avatar-containerCE
+				margin-bottom 0px
+				margin-left auto
+				margin-right auto
+				width 250px
+				.Avatar-img
+					padding-top 37px
+					width 100%								
