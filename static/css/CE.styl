@@ -93,7 +93,7 @@ Neutro_Aly = #B3B3B3
 			position fixed
 			top 50px
 			transition .2s
-			width 165px
+			width 160px
 			&.is-active
 				left 0
 			&-item
@@ -102,6 +102,7 @@ Neutro_Aly = #B3B3B3
 				line-height 50px
 				text-align center
 				text-shadow 0 0 10px Verde_D
+				width 150px
 				&:hover
 					background lightgray	
 			&-link
@@ -124,8 +125,10 @@ Neutro_Aly = #B3B3B3
 			color white
 			text-align center
 			font-size 100%
+			font-family Oswald
 		section.Ranking
 			background black
+			font-family Oswald
 			.flex-container
 				padding 0px
 				margin 0px
@@ -136,7 +139,8 @@ Neutro_Aly = #B3B3B3
 				display -webkit-flex
 				display flex
 				-webkit-flex-flow row wrap
-				justify-content space-around								
+				justify-content space-aroun
+				align-items center													
 				.flex-item
 					background black
 					padding 0px
@@ -145,43 +149,106 @@ Neutro_Aly = #B3B3B3
 					margin-top 0px
 					color: white
 					font-weight bold
+					margin-right auto
+					margin-left auto 
 					.Number
 						background black
+						border-style solid
+						border-left-width 0px
+						border-right-width 0px
+						border-bottom-width 0px
+						border-color Red_Mejor
 						color white
 						margin-top 0px
 						text-align right
 						font-size 100%
 						margin-bottom 0px
 						padding-right 20px
-					.Artistas-Nombres
+					.Number2
 						background white
 						color black
 						margin-top 0px
 						text-align center
-						font-size 100%
+						font-size 90%
 						margin-bottom 0px
 					.Album-Cover
 						width 100%
-					.Artista-Track
-						width 100%
-						margin-right auto
+					.Play
+						background white
+						border-radius 2px
+						color #666
+						font-weight bold
+						font-family Oswald
+						margin-bottom 0px
 						margin-left auto
+						margin-right auto
+						margin-top 0px
+						padding 10px
+						text-align center
+						width 80%
+						a
+							text-decoration none
+							color #666
+							font-size 80%
+					// INICIO ESTILOS DE TOP INDIVIDUAL
 					.Artistas-Stats
 						background Red_Mejor
-						text-align right
+						font-family Oswald
+						font-size 100%
+						margin-top 5px
+						padding-top 5px
+						padding-bottom 5px
 						padding-right 30px
-						font-size 100%
+						text-align right
 					.Stats
-						list-style none
-						width 100%
-						padding 0px
 						font-size 100%
+						font-family Oswald
+						list-style none
+						padding 0px
+						width 100%
+						h3.Artistas-Stats
+							background Red_Mejor
+							text-align right
+							padding-right 30px
+							font-size 100%
+							margin-top 5px
+						iframe
+							text-align center
+							width 100%
+							height auto
+						h3.Artistas-Stats
+							background Red_Mejor
+							text-align right
+							padding-right 30px
+							font-size 100%
+							margin-top 0px
 						li
 							margin-bottom 20px	
 						.Radio	
 							text-align left
 							padding-left 10px
 							width auto
+							font-family Oswald
+							header
+								h2
+									font-size 100%
+							article p
+								font-size 100%
+							footer
+								text-align center
+								a
+									text-decoration underline
+									color white
+							.Audio
+								background Red_Mejor
+								color white
+								text-align right
+								padding-right 30px
+							video
+								width 100%
+								height 30px
+								margin-right auto
+								margin-left auto
 						.Video
 							text-align left
 							padding-left 10px
@@ -195,6 +262,7 @@ Neutro_Aly = #B3B3B3
 							color white
 							background Up_Aly
 							padding 10px
+			// FIN DE LOS ESTILOS TOP INDIVIDUAL
 		.Footer
 			text-align center
 			background black
@@ -206,108 +274,61 @@ Neutro_Aly = #B3B3B3
 				color white
 				font-size 10px
 				font-weight bold
-
-/* 	MODULO SCREEN 220PX */
+/* MODULO SCREEN 220PX */
 
 @media screen and (min-width:220px)
 	html
 		background black
 		body
 			background white
-		h1.TOP
+		nav.Canvas
+			left 0
+			// overflow hidden
+			position fixed
+			right 0 
+			top 0
+			z-index 6
+		.Header
 			background black
 			color white
-			text-align center
-			font-size 120%
-		section.Ranking
-			background black
-			.flex-container
-				padding 0px
-				margin 0px
-				list-style none
-				display -webkit-box
-				display -moz-box;
-				display -ms-flexbox
-				display -webkit-flex
-				display flex
-				-webkit-flex-flow row wrap
-				justify-content space-around								
-				.flex-item
-					background black
-					padding 0px
-					width 100%
-					height auto
-					margin-top 0px
-					color: white
-					font-weight bold
-					.Number
-						background black
-						color white
-						margin-top 0px
-						text-align right
-						font-size 110%
-						margin-bottom 0px
-					.Artistas-Nombres
-						background white
-						color black
-						margin-top 0px
-						text-align center
-						font-size 104%
-						margin-bottom 0px
-					.Album-Cover
-						width 100%
-					.Artista-Track
-						width 100%
-						margin-right auto
-						margin-left auto
-					.Artistas-Stats
-						background Red_Mejor
-						text-align right
-						padding-right 30px
-						font-size 110%
-					.Stats
-						list-style none
-						width 100%
-						padding 0px
-						font-size 100%
-						li
-							margin-bottom 20px	
-						.Radio	
-							text-align left
-							padding-left 10px
-							width auto
-						.Video
-							text-align left
-							padding-left 10px
-							width auto
-						.Votos
-							text-align left
-							padding-left 10px
-							width auto
-						.Estado
-							text-align center
-							color white
-							background Up_Aly
-							padding 10px
-		.Footer
-			text-align center
-			background black
-			.Footer-titulo
-				color white
-				margin-top 10px
-				font-size 110%
-			.Footer-description
-				color white
-				font-size 14px
-				font-weight bold
+			height 30px
+			line-height 30px
+			padding 10px 0
+			position relative	
+			&-logoCon
+				margin 0
+				top 0
+				width 200px
+			&-logoTexto
+				display block
+				font-size 30px
+				left 60px
+				line-height 40px
+				margin 0
+				position absolute
+				text-shadow 0 0 10px lightgray
+				top 6px
+			&-logo1
+				display block
+				left 5px
+				margin 0
+				position absolute
+				top 2px
+				z-index 10px
 				
-/* 	MODULO SCREEN 320PX */
-
-@media screen and (min-width:320px)
-	html
-		background black
-		body
-			background white
+			&-button
+				background black
+				border none	
+				color white
+				display none
+				font-size 30px
+				font-weight normal
+				padding 0
+				position absolute
+				right 5px
+				top 10px
+				&.is-active
+					display block 
 		.MainMenu
 			display visible
 			background black
@@ -329,6 +350,254 @@ Neutro_Aly = #B3B3B3
 				line-height 50px
 				text-align center
 				text-shadow 0 0 10px Verde_D
+				width 200px
+				&:hover
+					background lightgray	
+			&-link
+				color white
+				display block
+				font-size 14px
+				text-decoration none
+				text-transform uppercase
+		section.Avatar-CE
+			figure.Avatar-containerCE
+				margin-bottom 0px
+				margin-left auto
+				margin-right auto
+				width 160px
+				.Avatar-img
+					padding-top 37px
+					width 100%
+		h1.TOP
+			background black
+			color white
+			text-align center
+			font-size 120%
+			font-family Oswald
+		section.Ranking
+			background black
+			font-family Oswald
+			.flex-container
+				padding 0px
+				margin 0px
+				list-style none
+				display -webkit-box
+				display -moz-box;
+				display -ms-flexbox
+				display -webkit-flex
+				display flex
+				-webkit-flex-flow row wrap
+				justify-content space-aroun
+				align-items center 													
+				.flex-item
+					background black
+					padding 0px
+					width 100%
+					height auto
+					margin-top 0px
+					color: white
+					font-weight bold
+					.Number
+						background black
+						border-style solid
+						border-left-width 0px
+						border-right-width 0px
+						border-bottom-width 0px
+						border-color Red_Mejor
+						color white
+						margin-top 0px
+						text-align right
+						font-size 120%
+						margin-bottom 0px
+						padding-right 20px
+					.Number2
+						background white
+						color black
+						margin-top 0px
+						text-align center
+						font-size 110%
+						margin-bottom 0px
+					.Album-Cover
+						width 100%
+					.Play
+						background white
+						border-radius 2px
+						color #666
+						font-weight bold
+						font-family Oswald
+						margin-bottom 0px
+						margin-left auto
+						margin-right auto
+						margin-top 0px
+						padding 10px
+						text-align center
+						width 80%
+						a
+							text-decoration none
+							color #666
+							font-size 80%
+					// INICIO ESTILOS DE TOP INDIVIDUAL
+					.Artistas-Stats
+						background Red_Mejor
+						font-family Oswald
+						font-size 120%
+						margin-top 5px
+						padding-right 30px
+						padding-top 5px
+						padding-bottom 5px
+						text-align right
+					.Stats
+						font-size 110%
+						font-family Oswald
+						list-style none
+						padding 0px
+						width 100%
+						h3.Artistas-Stats
+							background Red_Mejor
+							text-align right
+							padding-right 30px
+							font-size 100%
+							margin-top 5px
+						iframe
+							text-align center
+							width 100%
+							height 124px
+						h3.Artistas-Stats
+							background Red_Mejor
+							text-align right
+							padding-right 30px
+							font-size 100%
+							margin-top 0px
+						li
+							margin-bottom 20px	
+						.Radio	
+							text-align left
+							padding-left 10px
+							width auto
+							font-family Oswald
+							header
+								h2
+									font-size 100%
+							article p
+								font-size 100%
+							footer
+								text-align center
+								a
+									text-decoration underline
+									color white
+							.Audio
+								background Red_Mejor
+								color white
+								text-align right
+								padding-right 30px
+							video
+								width 100%
+								height 30px
+								margin-right auto
+								margin-left auto
+						.Video
+							text-align left
+							padding-left 10px
+							width auto
+						.Votos
+							text-align left
+							padding-left 10px
+							width auto
+						.Estado
+							text-align center
+							color white
+							background Up_Aly
+							padding 10px
+			// FIN DE LOS ESTILOS TOP INDIVIDUAL
+		.Footer
+			text-align center
+			background black
+			.Footer-titulo
+				color white
+				margin-top 10px
+				font-size 120%
+			.Footer-description
+				color white
+				font-size 80%
+				font-weight bold
+				
+/* MODULO SCREEN 320PX */
+
+@media screen and (min-width:320px)
+	html
+		background black
+		body
+			background white
+		nav.Canvas
+			left 0
+			// overflow hidden
+			position fixed
+			right 0 
+			top 0
+			z-index 6
+		.Header
+			background black
+			color white
+			height 30px
+			line-height 30px
+			padding 10px 0
+			position relative	
+			&-logoCon
+				margin 0
+				top 0
+				width 200px
+			&-logoTexto
+				display block
+				font-size 30px
+				left 60px
+				line-height 40px
+				margin 0
+				position absolute
+				text-shadow 0 0 10px lightgray
+				top 6px
+			&-logo1
+				display block
+				left 5px
+				margin 0
+				position absolute
+				top 2px
+				z-index 10px
+				
+			&-button
+				background black
+				border none	
+				color white
+				display none
+				font-size 30px
+				font-weight normal
+				padding 0
+				position absolute
+				right 5px
+				top 10px
+				&.is-active
+					display block 
+		.MainMenu
+			display visible
+			background black
+			height auto
+			left -200px
+			list-style none
+			margin 0
+			padding 0
+			position absolute
+			position fixed
+			top 50px
+			transition .2s
+			width 200px
+			&.is-active
+				left 0
+			&-item
+				-webkit-transition .2s
+				height 50px
+				line-height 50px
+				text-align center
+				text-shadow 0 0 10px Verde_D
+				width 200px
 				&:hover
 					background lightgray	
 			&-link
@@ -350,11 +619,11 @@ Neutro_Aly = #B3B3B3
 			background black
 			color white
 			text-align center
-			font-size 180%
-			width 100%
+			font-size 150%
+			font-family Oswald
 		section.Ranking
 			background black
-			margin-bottom 20px
+			font-family Oswald
 			.flex-container
 				padding 0px
 				margin 0px
@@ -365,78 +634,128 @@ Neutro_Aly = #B3B3B3
 				display -webkit-flex
 				display flex
 				-webkit-flex-flow row wrap
-				justify-content space-around								
+				justify-content space-aroun
+				align-items center 													
 				.flex-item
 					background black
 					padding 0px
-					width 320px
+					width 100%
 					height auto
 					margin-top 0px
 					color: white
 					font-weight bold
-					margin-right auto
-					margin-left auto
 					.Number
 						background black
+						border-style solid
+						border-left-width 0px
+						border-right-width 0px
+						border-bottom-width 0px
+						border-color Red_Mejor
 						color white
 						margin-top 0px
 						text-align right
-						font-size 180%
+						font-size 150%
 						margin-bottom 0px
-					.Artistas-Nombres
+						padding-right 20px
+					.Number2
 						background white
 						color black
 						margin-top 0px
 						text-align center
-						font-size 140%
+						font-size 150%
 						margin-bottom 0px
 					.Album-Cover
-						width 320px
-					.Artista-Track
-						width 320px
-						margin-right auto
+						width 100%
+					.Play
+						background white
+						border-radius 2px
+						color #666
+						font-weight bold
+						font-family Oswald
+						margin-bottom 0px
 						margin-left auto
+						margin-right auto
+						margin-top 0px
+						padding 10px
+						text-align center
+						width 80%
+						a
+							text-decoration none
+							color #666
+							font-size 80%
+					// INICIO ESTILOS DE TOP INDIVIDUAL
 					.Artistas-Stats
 						background Red_Mejor
-						text-align right
+						font-family Oswald
+						font-size 150%
+						margin-top 5px
 						padding-right 30px
-						font-size 160%
-						
+						padding-top 5px
+						padding-bottom 5px
+						text-align right
 					.Stats
+						font-size 150%
+						font-family Oswald
 						list-style none
-						width 320px
 						padding 0px
-						margin-left auto
-						margin-right auto
-						li
+						width 100%
+						h3.Artistas-Stats
+							background Red_Mejor
+							text-align right
+							padding-right 30px
+							font-size 100%
+							margin-top 5px
+						iframe
+							text-align center
 							width 100%
+							height 180px
+						h3.Artistas-Stats
+							background Red_Mejor
+							text-align right
+							padding-right 30px
+							font-size 100%
+							margin-top 0px
+						li
 							margin-bottom 20px	
-						.Radio
-							font-size 16px
-							font-weight bold	
+						.Radio	
 							text-align left
 							padding-left 10px
 							width auto
+							font-family Oswald
+							header
+								h2
+									font-size 100%
+							article p
+								font-size 100%
+							footer
+								text-align center
+								a
+									text-decoration underline
+									color white
+							.Audio
+								background Red_Mejor
+								color white
+								text-align right
+								padding-right 30px
+							video
+								width 100%
+								height 30px
+								margin-right auto
+								margin-left auto
 						.Video
-							font-size 16px
-							font-weight bold
 							text-align left
 							padding-left 10px
 							width auto
 						.Votos
-							font-size 16px
-							font-weight bold
 							text-align left
 							padding-left 10px
 							width auto
 						.Estado
-							font-size 16px
-							font-weight bold
 							text-align center
 							color white
 							background Up_Aly
 							padding 10px
-							width auto
+			// FIN DE LOS ESTILOS TOP INDIVIDUAL
 		.Footer
 			text-align center
 			background black
@@ -446,16 +765,64 @@ Neutro_Aly = #B3B3B3
 				font-size 150%
 			.Footer-description
 				color white
-				font-size 16px
+				font-size 100%
 				font-weight bold
 				
-/* 	MODULO SCREEN 320PX */
+/* MODULO SCREEN 400PX */
 
-@media screen and (min-width:640px)
+@media screen and (min-width:400px)
 	html
 		background black
 		body
 			background white
+		nav.Canvas
+			left 0
+			// overflow hidden
+			position fixed
+			right 0 
+			top 0
+			z-index 6
+		.Header
+			background black
+			color white
+			height 30px
+			line-height 30px
+			padding 10px 0
+			position relative	
+			&-logoCon
+				margin 0
+				top 0
+				width 200px
+			&-logoTexto
+				display block
+				font-size 30px
+				left 60px
+				line-height 40px
+				margin 0
+				position absolute
+				text-shadow 0 0 10px lightgray
+				top 6px
+			&-logo1
+				display block
+				left 5px
+				margin 0
+				position absolute
+				top 2px
+				z-index 10px
+				
+			&-button
+				background black
+				border none	
+				color white
+				display none
+				font-size 30px
+				font-weight normal
+				padding 0
+				position absolute
+				right 5px
+				top 10px
+				&.is-active
+					display block 
 		.MainMenu
 			display visible
 			background black
@@ -477,6 +844,7 @@ Neutro_Aly = #B3B3B3
 				line-height 50px
 				text-align center
 				text-shadow 0 0 10px Verde_D
+				width 200px
 				&:hover
 					background lightgray	
 			&-link
@@ -490,7 +858,161 @@ Neutro_Aly = #B3B3B3
 				margin-bottom 0px
 				margin-left auto
 				margin-right auto
-				width 250px
+				width 220px
 				.Avatar-img
 					padding-top 37px
-					width 100%								
+					width 100%
+		h1.TOP
+			background black
+			color white
+			text-align center
+			font-size 30px
+			font-family Oswald
+		section.Ranking
+			background black
+			font-family Oswald
+			.flex-container
+				padding 0px
+				margin 0px
+				list-style none
+				display -webkit-box
+				display -moz-box;
+				display -ms-flexbox
+				display -webkit-flex
+				display flex
+				-webkit-flex-flow row wrap
+				justify-content space-aroun
+				align-items center 													
+				.flex-item
+					background black
+					padding 0px
+					width 400px
+					height auto
+					margin-top 0px
+					color: white
+					font-weight bold
+					.Number
+						background black
+						border-style solid
+						border-left-width 0px
+						border-right-width 0px
+						border-bottom-width 0px
+						border-color Red_Mejor
+						color white
+						margin-top 0px
+						text-align right
+						font-size 30px
+						margin-bottom 0px
+						padding-right 20px
+					.Number2
+						background white
+						color black
+						margin-top 0px
+						text-align center
+						font-size 30px
+						margin-bottom 0px
+					.Album-Cover
+						width 100%
+					.Play
+						background white
+						border-radius 2px
+						color #666
+						font-weight bold
+						font-family Oswald
+						margin-bottom 0px
+						margin-left auto
+						margin-right auto
+						margin-top 0px
+						padding 10px
+						text-align center
+						width 80%
+						a
+							text-decoration none
+							color #666
+							font-size 80%
+					// INICIO ESTILOS DE TOP INDIVIDUAL
+					.Artistas-Stats
+						background Red_Mejor
+						font-family Oswald
+						font-size 28px
+						margin-top 5px
+						padding-right 30px
+						padding-top 5px
+						padding-bottom 5px
+						text-align right
+					.Stats
+						font-size 28px
+						font-family Oswald
+						list-style none
+						padding 0px
+						width 100%
+						h3.Artistas-Stats
+							background Red_Mejor
+							text-align right
+							padding-right 30px
+							font-size 100%
+							margin-top 5px
+						iframe
+							text-align center
+							width 100%
+							height 225px
+						h3.Artistas-Stats
+							background Red_Mejor
+							text-align right
+							padding-right 30px
+							font-size 28px
+							margin-top 0px
+						li
+							margin-bottom 20px	
+						.Radio	
+							text-align left
+							padding-left 10px
+							width auto
+							font-family Oswald
+							header
+								h2
+									font-size 28px
+							article p
+								font-size 22px
+							footer
+								text-align center
+								a
+									text-decoration underline
+									color white
+							.Audio
+								background Red_Mejor
+								color white
+								text-align right
+								padding-right 30px
+							video
+								width 100%
+								height 30px
+								margin-right auto
+								margin-left auto
+						.Video
+							text-align left
+							padding-left 10px
+							width auto
+						.Votos
+							text-align left
+							padding-left 10px
+							width auto
+						.Estado
+							font-size 28px
+							text-align center
+							color white
+							background Up_Aly
+							padding 10px
+			// FIN DE LOS ESTILOS TOP INDIVIDUAL
+		.Footer
+			text-align center
+			background black
+			.Footer-titulo
+				color white
+				margin-top 10px
+				font-size 30px
+			.Footer-description
+				color white
+				font-size 25px
+				font-weight bold
+				
