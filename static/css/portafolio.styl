@@ -120,44 +120,50 @@ body
 			border 5px solid black
 			border-radius 10%
 /* STYLUS DE LOS FUNDADORES EN INDEX.HTML */
-.Founder
-	display inline-block;
-	margin 0
-	width 180px;
-	&-img
-		border 5px solid black
-		border-radius 10%
-.Founder1
-	display inline-block
-	margin 0
-	width 260px
-	&-alianceImg1
-		border 5px solid black
-.Con-aliance
-	border 5px solid black
-	display inline-block;
-	margin 0
-/* STYLUS DE LAS SECCIONES, LOS TITULOS,
-DE LOS ARTICULOS, DEL TEXTO, DE LOS BOTONES DE TWITTER Y FACEBOOK,
+section.Perfil-contenedor
+	background white
+	margin 0px
+    ul.flex-container
+		padding 0px
+		margin-top 0px
+		margin-bottom 0px
+		list-style none
+		display -webkit-box
+		display -moz-box;
+		display -ms-flexbox
+		display -webkit-flex
+		display flex
+		-webkit-flex-flow row wrap
+		justify-content space-aroun
+		align-items center    	
+        .flex-item
+			background white
+			padding 0px
+			width 100%
+			height auto
+			margin-top 0px
+			color Brown_Aly
+			font-weight bold
+			margin-top 0px
+			margin-right auto
+			margin-left auto
+			font-family Oswald
+			article
+				h2.Perfil-titulo
+					background Green_Aly
+					margin 0px
+					color white
+				p.Perfil-texto
+					margin-right 3%
+					margin-left 3%
+				figure.Founder
+					margin-right auto
+					margin-left auto
+                .Founder-img
+					width 100%
+/* STYLUS DE LOS BOTONES DE TWITTER Y FACEBOOK,
 DEL INDEX.HTML */
-.Con
-	padding-bottom 10px
-	&-titulo
-		background Green_Aly
-		color white
-		font-weight normal
-		margin-top 0
-		overflow hidden
-		text-align center
-		text-shadow 0 0 10px Verde_D
-	&-Article
-		margin-bottom .5em
-		text-align center
-	&-texto
-		margin-left 2%
-		margin-right 2%
-	&-textIalic
-		font-style italic	
+.Con	
 	&-linkTwitter
 		background Orange_Aly
 		border-bottom 3px solid #f39c12	
@@ -167,6 +173,7 @@ DEL INDEX.HTML */
 		font-size 1em
 		font-weight normal
 		margin-top .5em
+		margin-bottom .5em
 		padding 5px
 		text-decoration none
 	&-linkFacebook
@@ -178,6 +185,7 @@ DEL INDEX.HTML */
 		font-size 1em
 		font-weight normal
 		margin-top .5em
+		margin-bottom .5em
 		padding 5px
 		text-decoration none
 /* STYLUS DE ANUNCIOS EN CLASIFICADOS */
@@ -225,7 +233,7 @@ section.Clasificados
 					margin-left 5px
 /* STYLUS DE ENLACES EXCLUSIVOS INMUEBLES */
 	section
-		background ElTiempo
+		background white
 		h2.LOCAAP-titulo.icon-home
 			background Yellow_Aly
 			margin-top 0px
@@ -480,82 +488,6 @@ section.LOCAAP-slider
 		margin-right 2%
 	&-description
 		color white	
-//SECCION AMARILLA-AZUL-VERDE//
-	// .Canvas-Sa
-	// 	left 0
-	// 	overflow hidden
-	// 	position fixed
-	// 	position relative
-	// 	right 0 
-	// 	top 0
-	// .Header-Sa
-	// 	background Yellow_Aly
-	// 	color black
-	// 	height 30px
-	// 	line-height 30px
-	// 	padding 10px 0
-	// 	position relative	
-	// 	&-logoCon
-	// 		margin 0
-	// 		top 0
-	// 		width 200px
-	// 	&-logoTexto
-	// 		display block
-	// 		font-size 30px
-	// 		left 60px
-	// 		line-height 40px
-	// 		margin 0
-	// 		position absolute
-	// 		text-shadow 0 0 10px Verde_D
-	// 		top 6px
-	// 	&-logo1
-	// 		display block
-	// 		left 5px
-	// 		margin 0
-	// 		position absolute
-	// 		top 2px
-	// 		z-index 10px
-	// 	&-button
-	// 		background Yellow_Aly
-	// 		border none	
-	// 		color white
-	// 		display none
-	// 		font-size 30px
-	// 		font-weight normal
-	// 		padding 0
-	// 		position absolute
-	// 		right 5px
-	// 		top 10px
-	// 		&.is-active
-	// 			display block 
-	// 	.MainMenu-Sa
-	// 		background Green_Aly
-	// 		height auto
-	// 		left -200px
-	// 		list-style none
-	// 		margin 0
-	// 		padding 0
-	// 		position absolute
-	// 		position fixed
-	// 		top 50px
-	// 		transition .2s
-	// 		width 200px
-	// 		&.is-active
-	// 			left 0
-	// 		&-item-Sa
-	// 			-webkit-transition .2s
-	// 			height 50px
-	// 			line-height 50px
-	// 			text-align center
-	// 			text-shadow 0 0 10px Verde_D
-	// 			&:hover
-	// 				background lightgray	
-	// 		&-link-Sa
-	// 			color white
-	// 			display block
-	// 			font-size 14px
-	// 			text-decoration none
-	// 			text-transform uppercase
 /*STYLUS DE NOTICIAS.HTML*/
 section.News-contenedor
 	background-color white
@@ -932,7 +864,17 @@ section.News-contenedor
 							h3.Título
 								font-size 16px
 							p
-								font-size 15px						
+								font-size 15px
+			section.Perfil-contenedor
+				article
+					h2.Perfil-titulo
+						font-size 100%
+					p.Perfil-texto
+						font-size 15px
+					figure.Founder
+						width 95%
+                	.Founder-img
+						width 100%						
 @media screen and (min-width:220px)
 	html
 		height auto
@@ -956,7 +898,17 @@ section.News-contenedor
 							h3.Título
 								font-size 100%
 							p
-								font-size 90%													
+								font-size 90%
+			section.Perfil-contenedor
+				article
+					h2.Perfil-titulo
+						font-size 100%
+					p.Perfil-texto
+						font-size 90%
+					figure.Founder
+						width 95%
+                	.Founder-img
+						width 100%														
 @media screen and (min-width:320px)
 	html
 		height auto
@@ -1146,7 +1098,17 @@ section.News-contenedor
 							h3.Título
 								font-size 18px
 							p
-								font-size 17px	
+								font-size 17px
+			section.Perfil-contenedor
+				article
+					h2.Perfil-titulo
+						font-size 22px
+					p.Perfil-texto
+						font-size 17px
+					figure.Founder
+						width 320px
+                	.Founder-img
+						width 100%	
 /*CARDÓN ESTÉREO*/
 			section#Avatar-CE.Avatar-CE
 				figure.Avatar-containerCE
@@ -1328,6 +1290,16 @@ section.News-contenedor
 								font-size 20px
 							p
 								font-size 18px
+			section.Perfil-contenedor
+				article
+					h2.Perfil-titulo
+						font-size 22px
+					p.Perfil-texto
+						font-size 18px
+					figure.Founder
+						width 320px
+                	.Founder-img
+						width 100%
 /*CARDÓN ESTÉREO*/
 			section#Avatar-CE.Avatar-CE
 				figure.Avatar-containerCE
@@ -1508,6 +1480,16 @@ section.News-contenedor
 								font-size 20px
 							p
 								font-size 18px
+			section.Perfil-contenedor
+				article
+					h2.Perfil-titulo
+						font-size 22px
+					p.Perfil-texto
+						font-size 18px
+					figure.Founder
+						width 320px
+                	.Founder-img
+						width 100%
 @media screen and (min-width:665px)
 	html
 		body
