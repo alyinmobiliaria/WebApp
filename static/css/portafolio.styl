@@ -12,7 +12,9 @@ Verde_D = lightgreen
 Green_Mejor = #7dcd40
 Yellow_Mejor = #ffc44d
 Red_Mejor = #ff4842
+Red_Ai = #ff6666
 Yellow_Aly = #dfcf6f
+Yellow-Aly0 = #ffff33
 Brown_Font = #87620a
 Brown_Borderbtn = #87620a
 /* STYLUS DEL INDEX.HTML, CLASIFICADOS.HTML, TRABAJOS.HTML, NOTICIAS.HTML,
@@ -213,8 +215,8 @@ DEL INDEX.HTML */
 		text-decoration none
 /* STYLUS DE ANUNCIOS EN CLASIFICADOS */
 section.Clasificados
-	background lightgray
-	margin-bottom 20px
+	background white
+	padding-bottom 20px
 	h2
 		background Yellow_Aly
 		font-family Oswald
@@ -223,17 +225,18 @@ section.Clasificados
 		margin-top 0px
 		color Brown_Aly
 	.flex-container
-		padding 0px
-		margin-top 15px
-		list-style none
-		display -webkit-box
+		-webkit-flex-flow row wrap
+		align-items center
+		background white
 		display -moz-box;
 		display -ms-flexbox
+		display -webkit-box
 		display -webkit-flex
 		display flex
-		-webkit-flex-flow row wrap
 		justify-content space-aroun
-		align-items center
+		list-style none
+		margin-top 15px
+		padding 0px
 		.flex-item
 			background Yellow_Aly
 			padding 0px
@@ -512,189 +515,64 @@ section.LOCAAP-slider
 		margin-right 2%
 	&-description
 		color white	
-/*STYLUS DE NOTICIAS.HTML*/
-section.News-contenedor
-	background-color white
-	padding-bottom 20px
-	article.News-0
-		border 10px solid white
-		border-radius 4px
-		box-shadow 0px 0px 25px 5px rgba(0, 0, 0, 0.3)
-		height auto
-		margin 0 auto
-		margin-bottom 20px
-		margin-left auto
-		margin-right auto
-		margin-top 46px
-		overflow hidden
-		width 85%
-		div.News-parte1
-			margin-bottom 20px
-			h1.News-title
-				font-family "Oswald" sans serif
-				margin-bottom
-				text-align center
-			p.News-subtitle
-				align left
-				color #505050
-				font-family "oswald" light
-			time.News-publicDate
-				background-color Green_Aly
-				color white
-				font-size 12px
-				margin-bottom 12px
-		div.News-parte2
-			figcaption
-				font-family "oswald" light
-				a
-					color Orange_Aly
-					text-decoration none
-		div.News-parte3		
-			p.News-content
-				align left
-				color #666
-				font-family "Crimsom Text" light
-				font-size 22px
-				height auto
-				margin-left auto
-				margin-right auto
-				width 80%
-		div.News-autorBox
-			figcaption.News-autorName
-				font-family "oswald" light
-			a
-				color Orange_Aly
-				text-decoration none
-	article.News
-		border 10px solid white
-		border-radius 4px
-		box-shadow 0px 0px 25px 5px rgba(0, 0, 0, 0.3)
-		height auto
-		margin 0 auto
-		margin-bottom 20px
-		margin-left auto
-		margin-right auto
+/*STYLUS DE SERVICIOS.HTML*/
+section.Logo-Servicios
+	text-align center
+	h2
+		background Green_Aly
+		margin 0px
+		text-align center
+		color white
+		font-size 100%
+		
+	img
+		width 95%
+section.Servicios-contenedor
+	background white
+	padding-top 10px
+	ul.flex-container
+		-webkit-flex-flow row wrap
+		align-items center
+		background white
+		display -moz-box;
+		display -ms-flexbox
+		display -webkit-box
+		display -webkit-flex
+		display flex
+		justify-content space-aroun
+		list-style none
 		margin-top 0px
-		overflow hidden
-		width 85%
-		div.News-parte1
-			margin-bottom 20px
-			h1.News-title
-				font-family "Oswald" sans serif
-				margin-bottom
-				text-align center
-			p.News-subtitle
-				align left
-				color #505050
-				font-family "oswald" light
-			time.News-publicDate
-				background-color Green_Aly
-				color white
-				font-size 12px
-				margin-bottom 12px
-		div.News-parte2
-			figcaption
-				font-family "oswald" light
-				a
-					color Orange_Aly
-					text-decoration none
-		div.News-parte3		
-			p.News-content
-				align left
-				color #666
-				font-family "Crimsom Text" light
-				font-size 22px
-				height auto
-				margin-left auto
-				margin-right auto
-				width 80%
-		div.News-autorBox
-			figcaption.News-autorName
-				font-family "oswald" light
+		padding 0px
+		li.flex-item
+			background white
+			color Brown_Aly
+			font-family Oswald
+			font-weight bold
+			height auto
+			margin-top 0px
+			margin-top 0px
+			padding 0px
+			width 90%
+		li.flex-item.dos
+			border 10px solid Yellow-Aly0
 			a
-				color Orange_Aly
-				text-decoration none
-	div.News-compartir
-		background-color Black_Aly
-		border 10px #f56019
-		border-radius 4px
-		box-shadow 0px 0px 25px 5px rgba(0, 0, 0, 0.3)
-		height auto
-		margin 0 auto
-		margin-bottom 20px
-		margin-left auto
-		margin-right auto
-		margin-top 48px
-		overflow hidden
-		width 90%
-		h3.News-titleShare
-			font-family "Oswald" sans serif
-			margin-bottom
-			text-align center
-			color white
-		p.News-content
-			align left
-			color white
-			font-family "Crimsom Text" light
-			font-size 22px
-			height auto
-			margin-left auto
-			margin-right auto
-			width 80%
-	div.News-redes
-		background-color Red_Mejor
-		border 10px #f56019
-		border-radius 4px
-		box-shadow 0px 0px 25px 5px rgba(0, 0, 0, 0.3)
-		height auto
-		margin 0 auto
-		margin-bottom 20px
-		margin-left auto
-		margin-right auto
-		margin-top 48px
-		overflow hidden
-		width 90%
-		h3.News-titleRedes
-			font-family "Oswald" sans serif
-			margin-bottom
-			text-align center
-			color white
-		p.News-content
-			align left
-			color white
-			font-family "Crimsom Text" light
-			font-size 22px
-			height auto
-			margin-left auto
-			margin-right auto
-			width 80%
-	div.News-comments
-		background-color Blue_Aly
-		border 10px #f56019
-		border-radius 4px
-		box-shadow 0px 0px 25px 5px rgba(0, 0, 0, 0.3)
-		height auto
-		margin 0 auto
-		margin-bottom 20px
-		margin-left auto
-		margin-right auto
-		margin-top 48px
-		overflow hidden
-		width 90%
-		h3.News-titleShare
-			font-family "Oswald" sans serif
-			margin-bottom
-			text-align center
-			color white	
-		p.News-content
-			align left
-			color white
-			font-family "Crimsom Text" light
-			font-size 22px
-			height auto
-			margin-left auto
-			margin-right auto
-			width 80%						
+				
+				.Logo-Servicio
+					width 85%
+			h3
+				background black
+				color white
+				font-size 100%
+				text-align center
+			p
+				font-size 70%
+				text-align left
+				padding-right 2%
+				padding-left 2%
+			.Red
+				background Red_Mejor
+			.Redtexto
+				text-align center									
 @media screen and (min-width:160px)
 	html
 		height auto
@@ -913,7 +791,24 @@ section.News-contenedor
 					figure.Con-imgContainer
 						width 100%
 						img.Con-img
-							width 100%						
+							width 100%
+			section.Logo-Servicios
+				h2
+					font-size 100%
+				img
+					width 90%
+			section.Servicios-contenedor
+				ul.flex-container
+					li.flex-item
+					li.flex-item.dos
+						a
+							.Logo-Servicio
+								width 90%
+								
+						h3
+							font-size 100%
+						p
+							font-size 80%				
 @media screen and (min-width:220px)
 	html
 		height auto
@@ -962,7 +857,24 @@ section.News-contenedor
 					figure.Con-imgContainer
 						width 100%
 						img.Con-img
-							width 100%														
+							width 100%
+			section.Logo-Servicios
+				h2
+					font-size 100%
+				img
+					width 95%
+			section.Servicios-contenedor
+				ul.flex-container
+					li.flex-item
+					li.flex-item.dos
+						a
+							.Logo-Servicio
+								width 90%
+								
+						h3
+							font-size 100%
+						p
+							font-size 80%														
 @media screen and (min-width:320px)
 	html
 		height auto
@@ -1178,7 +1090,25 @@ section.News-contenedor
 					figure.Con-imgContainer
 						width 100%
 						img.Con-img
-							width 100%		
+							width 100%
+			section.Logo-Servicios
+				h2
+					font-size 22px
+				img
+					width 95%
+			section.Servicios-contenedor
+				ul.flex-container
+					li.flex-item
+					li.flex-item.dos
+						border 20px solid Yellow-Aly0
+						a
+							.Logo-Servicio
+								width 200px
+								
+						h3
+							font-size 18px
+						p
+							font-size 17px		
 /*CARDÓN ESTÉREO*/
 			section#Avatar-CE.Avatar-CE
 				figure.Avatar-containerCE
@@ -1386,6 +1316,24 @@ section.News-contenedor
 						width 100%
 						img.Con-img
 							width 100%
+			section.Logo-Servicios
+				h2
+					font-size 22px
+				img
+					width 98%
+			section.Servicios-contenedor
+				ul.flex-container
+					li.flex-item
+					li.flex-item.dos
+						border 20px solid Yellow-Aly0
+						a
+							.Logo-Servicio
+								width 200px
+								
+						h3
+							font-size 20px
+						p
+							font-size 18px
 /*CARDÓN ESTÉREO*/
 			section#Avatar-CE.Avatar-CE
 				figure.Avatar-containerCE
@@ -1592,6 +1540,23 @@ section.News-contenedor
 						width 100%
 						img.Con-img
 							width 100%
+			section.Logo-Servicios
+				h2
+					font-size 22px
+				img
+					width 98%
+			section.Servicios-contenedor
+				ul.flex-container
+					li.flex-item
+					li.flex-item.dos
+						border 20px solid Yellow-Aly0
+						a
+							.Logo-Servicio
+								width 200px	
+						h3
+							font-size 20px
+						p
+							font-size 18px
 @media screen and (min-width:600px)
 	html
 		body
@@ -1690,6 +1655,23 @@ section.News-contenedor
 						width 100%
 						img.Con-img
 							width 100%
+			section.Logo-Servicios
+				h2
+					font-size 22px
+				img
+					width 98%
+			section.Servicios-contenedor
+				ul.flex-container
+					li.flex-item
+					li.flex-item.dos
+						border 20px solid Yellow-Aly0
+						a
+							.Logo-Servicio
+								width 200px	
+						h3
+							font-size 20px
+						p
+							font-size 18px
 @media screen and (min-width:700px)
 	html
 		height auto
@@ -1780,8 +1762,27 @@ section.News-contenedor
 						height 394px
 					figure.Con-imgContainer
 						width 700px
+						margin-right auto
+						margin-left auto
 						img.Con-img
 							width 100%
+			section.Logo-Servicios
+				h2
+					font-size 22px
+				img
+					width 98%
+			section.Servicios-contenedor
+				ul.flex-container
+					li.flex-item
+					li.flex-item.dos
+						border 20px solid Yellow-Aly0
+						a
+							.Logo-Servicio
+								width 200px	
+						h3
+							font-size 20px
+						p
+							font-size 18px
 @media screen and (min-width:769px)
 	html
 		height auto
@@ -1808,6 +1809,24 @@ section.News-contenedor
 					div.News-parte1
 						h1.News-title
 							font-size 40px
+			section.Logo-Servicios
+				h2
+					font-size 22px
+				img
+					width 98%
+			section.Servicios-contenedor
+				ul.flex-container
+					li.flex-item
+						width 765px
+					li.flex-item.dos
+						border 20px solid Yellow-Aly0
+						a
+							.Logo-Servicio
+								width 200px	
+						h3
+							font-size 20px
+						p
+							font-size 18px
 @media screen and (min-width:845px)
 	html
 		height auto
