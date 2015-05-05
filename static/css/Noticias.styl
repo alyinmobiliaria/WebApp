@@ -1,0 +1,175 @@
+@import "fonts.styl"
+@import "flaticon.styl"
+@import "portafolio.styl"
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300)
+Green_Aly = #00ba89
+Black_Aly = #1e120d
+Blue_Aly = #00b9e8
+/*Background de Anuncios SecciónAzul*/
+ElTiempo = #e5ddd7
+Brown_Aly = #2f0000
+Orange_Aly = #ffa500
+Verde_D = lightgreen
+Green_Mejor = #7dcd40
+Yellow_Mejor = #ffc44d
+Red_Mejor = #ff4842
+Red_Ai = #ff6666
+Yellow_Aly = #dfcf6f
+Yellow-Aly0 = #ffff33
+Yellow-Aly1 = #FDC82F
+Brown_Font = #87620a
+Brown_Borderbtn = #87620a
+body
+	background lightgray
+	nav.Canvas
+		left 0
+		// overflow hidden
+		position fixed
+		right 0 
+		top 0
+		z-index 6
+	.Header
+		background black
+		color white
+		height 30px
+		line-height 30px
+		padding 10px 0
+		position relative	
+		&-logoCon
+			margin 0
+			top 0
+			width 200px
+		&-logoTexto
+			display block
+			font-size 30px
+			left 60px
+			line-height 40px
+			margin 0
+			position absolute
+			text-shadow 0 0 10px Verde_D
+			top 6px
+		&-logo1
+			display block
+			left 5px
+			margin 0
+			position absolute
+			top 2px
+			z-index 10px
+		&-button
+			background black
+			border none	
+			color white
+			display none
+			font-size 30px
+			font-weight normal
+			padding 0
+			position absolute
+			right 5px
+			top 10px
+			&.is-active
+				display block 
+		.MainMenu
+			display visible
+			background black
+			height auto
+			left -200px
+			list-style none
+			margin 0
+			padding 0
+			position absolute
+			position fixed
+			top 50px
+			transition .2s
+			width 200px
+			&.is-active
+				left 0
+			&-item
+				-webkit-transition .2s
+				height 50px
+				line-height 50px
+				text-align center
+				text-shadow 0 0 10px Verde_D
+				&:hover
+					background lightgray	
+			&-link
+				color white
+				display block
+				font-size 14px
+				text-decoration none
+				text-transform uppercase
+	#Noticias
+		background white	
+		background-position center
+		background-repeat no-repeat
+		background-size cover
+		height auto
+		margin-top 47px
+		overflow hidden 
+		padding 1.5em 0
+		text-align: center
+		.Noticias-titulo
+			background rgba(255, 255, 255, 0.38)
+			border 5px solid black
+			display inline-block
+			height auto
+			margin-left 0
+			margin-right 0
+			margin-top 0
+			text-align center
+			width 300px
+		.Avatar-container
+			width 140px
+			margin-right auto
+			margin-left auto
+			.Avatar-img
+				width 100%
+/* STYLUS DEL FOOTER DE TODOS LOS .HTML*/
+#Footer
+	background black	
+	background-position center
+	background-repeat no-repeat
+	background-size cover
+	height auto
+	margin-top 0px
+	overflow hidden 
+	padding 0
+	text-align: center
+.Footer
+	&-titulo
+		background black
+		color white
+		font-weight normal
+		margin-top 0
+		overflow hidden
+		text-align center
+		text-shadow 0 0 10px Verde_D
+	&-texto
+		color white
+		margin-left 2%
+		margin-right 2%
+	&-description
+		color white
+.FooterCla
+	background-image url("../images/footer.png")	
+	background-position center
+	background-repeat no-repeat
+	background-size cover
+	height auto
+	margin-top 0px
+	overflow hidden 
+	padding 0
+	text-align: center
+	&-titulo
+		background black
+		color white
+		font-weight normal
+		margin-top 0
+		overflow hidden
+		text-align center
+		text-shadow 0 0 10px Verde_D
+	&-texto
+		color white
+		margin-left 2%
+		margin-right 2%
+	&-description
+		color white		
