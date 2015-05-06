@@ -24,8 +24,8 @@ html
 		border-style solid
 		height auto
 		margin-top 0px
-		// margin-left auto
-		// margin-right auto
+		margin-left auto
+		margin-right auto
 		// width 1100px
 body
 	background lightgray
@@ -105,7 +105,7 @@ body
 				font-size 14px
 				text-decoration none
 				text-transform uppercase
-	#Noticias
+	.Noticias
 		background white	
 		background-position center
 		background-repeat no-repeat
@@ -113,7 +113,7 @@ body
 		height auto
 		margin-top 47px
 		overflow hidden 
-		padding 1.5em 0
+		padding 0
 		text-align: center
 		.Avatar-container
 			width 140px
@@ -121,21 +121,52 @@ body
 			margin-left auto
 			.Avatar-img
 				width 100%
-	h1.Noticias-titulo
+	h2.Noticias-titulo
 		background black
 		color white
 		height auto
 		margin-bottom 0px
 		margin-top 0px
 		text-align center
-/* STYLUS DE SECCIÓN DE ALY NOTICIAS*/
-        ul.flex-container
-            li.flex-item
-            	button
-            		header
-            			background #009CFF
+	section.Menu-noticias
+		background white
+		padding-bottom 20px
+		h2
+			background black
+			font-family Oswald
+			text-align center
+			margin-bottom 0px
+			margin-top 0px
+			color white
+		.flex-container
+			-webkit-flex-flow row wrap
+			align-items center
+			background white
+			display -moz-box;
+			display -ms-flexbox
+			display -webkit-box
+			display -webkit-flex
+			display flex
+			justify-content space-aroun
+			list-style none
+			margin-top 15px
+			padding 0px
+			.flex-item
+				background white
+				color black
+				font-family Oswald
+				font-weight bold
+				height auto
+				margin-left auto
+				margin-right auto
+				margin-top 10px
+				padding 0px
+				width 390px
+			time
+				background lightgray
+				padding 5px
 /* STYLUS DEL FOOTER DE TODOS LOS .HTML*/
-#Footer
+.FooterN
 	background black	
 	background-position center
 	background-repeat no-repeat
@@ -145,7 +176,6 @@ body
 	overflow hidden 
 	padding 0
 	text-align: center
-.Footer
 	&-titulo
 		background black
 		color white
@@ -160,8 +190,8 @@ body
 		margin-right 2%
 	&-description
 		color white
-.FooterCla
-	background-image url("../images/footer.png")	
+.FooterN
+	background black	
 	background-position center
 	background-repeat no-repeat
 	background-size cover
@@ -183,4 +213,654 @@ body
 		margin-left 2%
 		margin-right 2%
 	&-description
-		color white		
+		color white
+@media screen and (min-width:160px)	
+	html
+		height auto
+		margin-left auto
+		margin-right auto
+		width 160px
+		body
+			width 160px
+			.MainMenu
+				width 160px
+			.Noticias
+				width 160px
+				text-align center
+				.Avatar-container
+					margin 0px 0px
+					width 160px
+					.Avatar-img
+						border 0px
+						width 90%
+						margin-right auto
+						margin-left auto
+			.Menu-noticias
+				width 160px
+				.Noticias-titulo
+					font-size 100%
+				.flex-container
+					width 160px
+					.flex-item
+						width 100%
+						.Link-item
+							padding-bottom 10px
+							figure
+								width 160px
+								margin 0px
+								img
+									width 100%
+						time
+							font-size 70%
+			.FooterN
+				width 160px
+				.FooterN-titulo
+					font-size 100%
+				.FooterN-texto
+					font-size 12px
+				.FooterN-description
+					font-size 12px
+@media screen and (min-width:220px)	
+	html
+		height auto
+		margin-left auto
+		margin-right auto
+		width 220px
+		body
+			width 220px
+			.MainMenu
+				width 160px
+			.Noticias
+				width 220px
+				text-align center
+				.Avatar-container
+					margin 0px 0px
+					width 220px
+					margin-right auto
+					margin-left auto
+					.Avatar-img
+						border 0px
+						width 90%
+						margin-right auto
+						margin-left auto
+			.Menu-noticias
+				width 220px
+				.Noticias-titulo
+					font-size 20px
+				.flex-container
+					width 220px
+					.flex-item
+						width 100%
+						.Link-item
+							padding-bottom 10px
+							figure
+								width 220px
+								margin 0px
+								img
+									width 100%
+						time
+							font-size 70%
+			.FooterN
+				width 220px
+				.FooterN-titulo
+					font-size 20px
+				.FooterN-texto
+					font-size 14px
+				.FooterN-description
+					font-size 14px
+@media screen and (min-width:320px)	
+	html
+		height auto
+		margin-left auto
+		margin-right auto
+		width 320px
+		body
+			width 320px
+			.MainMenu
+				width 200px
+			.Noticias
+				width 320px
+				text-align center
+				.Avatar-container
+					margin 0px 0px
+					width 320px
+					margin-right auto
+					margin-left auto
+					.Avatar-img
+						border 0px
+						width 220px
+						margin-right auto
+						margin-left auto
+			.Menu-noticias
+				width 320px
+				.Noticias-titulo
+					font-size 25px
+				.flex-container
+					width 320px
+					.flex-item
+						width 100%
+						.Link-item
+							padding-bottom 10px
+							figure
+								width 320px
+								margin 0px
+								img
+									width 100%
+						time
+							font-size 12px
+			.FooterN
+				width 320px
+				.FooterN-titulo
+					font-size 25px
+				.FooterN-texto
+					font-size 16px
+				.FooterN-description
+					font-size 16px
+@media screen and (min-width:400px)	
+	html
+		height auto
+		margin-left auto
+		margin-right auto
+		width 400px
+		body
+			width 400px
+			.MainMenu
+				width 200px
+			.Noticias
+				width 400px
+				text-align center
+				.Avatar-container
+					margin 0px 0px
+					width 400px
+					margin-right auto
+					margin-left auto
+					.Avatar-img
+						border 0px
+						width 220px
+						margin-right auto
+						margin-left auto
+			.Menu-noticias
+				width 400px
+				.Noticias-titulo
+					font-size 25px
+				.flex-container
+					width 400px
+					.flex-item
+						width 380px
+						.Link-item
+							padding-bottom 10px
+							figure
+								width 380px
+								margin 0px
+								img
+									width 100%
+						time
+							font-size 12px
+			.FooterN
+				width 400px
+				.FooterN-titulo
+					font-size 25px
+				.FooterN-texto
+					font-size 16px
+				.FooterN-description
+					font-size 16px
+@media screen and (min-width:500px)	
+	html
+		height auto
+		margin-left auto
+		margin-right auto
+		width 500px
+		body
+			width 500px
+			.MainMenu
+				width 200px
+			.Noticias
+				width 500px
+				text-align center
+				.Avatar-container
+					margin 0px 0px
+					width 500px
+					margin-right auto
+					margin-left auto
+					.Avatar-img
+						border 0px
+						width 220px
+						margin-right auto
+						margin-left auto
+			.Menu-noticias
+				width 500px
+				.Noticias-titulo
+					font-size 25px
+				.flex-container
+					width 500px
+					.flex-item
+						width 380px
+						.Link-item
+							padding-bottom 10px
+							figure
+								width 380px
+								margin 0px
+								img
+									width 100%
+						time
+							font-size 12px
+			.FooterN
+				width 500px
+				.FooterN-titulo
+					font-size 25px
+				.FooterN-texto
+					font-size 16px
+				.FooterN-description
+					font-size 16px
+@media screen and (min-width:600px)	
+	html
+		height auto
+		margin-left auto
+		margin-right auto
+		width 600px
+		body
+			width 600px
+			.MainMenu
+				width 200px
+			.Noticias
+				width 600px
+				text-align center
+				.Avatar-container
+					margin 0px 0px
+					width 600px
+					margin-right auto
+					margin-left auto
+					.Avatar-img
+						border 0px
+						width 220px
+						margin-right auto
+						margin-left auto
+			.Menu-noticias
+				width 600px
+				.Noticias-titulo
+					font-size 25px
+				.flex-container
+					width 600px
+					.flex-item
+						width 380px
+						.Link-item
+							padding-bottom 10px
+							figure
+								width 380px
+								margin 0px
+								img
+									width 100%
+						time
+							font-size 12px
+			.FooterN
+				width 600px
+				.FooterN-titulo
+					font-size 25px
+				.FooterN-texto
+					font-size 18px
+				.FooterN-description
+					font-size 18px
+@media screen and (min-width:665px)	
+	html
+		height auto
+		margin-left auto
+		margin-right auto
+		width 665px
+		body
+			width 665px
+			.MainMenu
+				width 200px
+			.Noticias
+				width 665px
+				text-align center
+				.Avatar-container
+					margin 0px 0px
+					width 665px
+					margin-right auto
+					margin-left auto
+					.Avatar-img
+						border 0px
+						width 260px
+						margin-right auto
+						margin-left auto
+			.Menu-noticias
+				width 665px
+				.Noticias-titulo
+					font-size 25px
+				.flex-container
+					width 665px
+					.flex-item
+						width 380px
+						.Link-item
+							padding-bottom 10px
+							figure
+								width 380px
+								margin 0px
+								img
+									width 100%
+						time
+							font-size 12px
+			.FooterN
+				width 665px
+				.FooterN-titulo
+					font-size 25px
+				.FooterN-texto
+					font-size 18px
+				.FooterN-description
+					font-size 18px
+@media screen and (min-width:700px)	
+	html
+		height auto
+		margin-left auto
+		margin-right auto
+		width 700px
+		body
+			width 700px
+			.MainMenu
+				width 200px
+			.Noticias
+				width 700px
+				text-align center
+				.Avatar-container
+					margin 0px 0px
+					width 700px
+					margin-right auto
+					margin-left auto
+					.Avatar-img
+						border 0px
+						width 260px
+						margin-right auto
+						margin-left auto
+			.Menu-noticias
+				width 700px
+				.Noticias-titulo
+					font-size 25px
+				.flex-container
+					width 700px
+					.flex-item
+						width 380px
+						.Link-item
+							padding-bottom 10px
+							figure
+								width 380px
+								margin 0px
+								img
+									width 100%
+						time
+							font-size 12px
+			.FooterN
+				width 700px
+				.FooterN-titulo
+					font-size 25px
+				.FooterN-texto
+					font-size 18px
+				.FooterN-description
+					font-size 18px
+@media screen and (min-width:769px)	
+	html
+		height auto
+		margin-left auto
+		margin-right auto
+		width 769px
+		body
+			width 769px
+			.MainMenu
+				width 200px
+			.Noticias
+				width 769px
+				text-align center
+				.Avatar-container
+					margin 0px 0px
+					width 769px
+					margin-right auto
+					margin-left auto
+					.Avatar-img
+						border 0px
+						width 260px
+						margin-right auto
+						margin-left auto
+			.Menu-noticias
+				width 769px
+				.Noticias-titulo
+					font-size 25px
+				.flex-container
+					width 769px
+					.flex-item
+						width 380px
+						.Link-item
+							padding-bottom 10px
+							figure
+								width 380px
+								margin 0px
+								img
+									width 100%
+						time
+							font-size 12px
+			.FooterN
+				width 769px
+				.FooterN-titulo
+					font-size 25px
+				.FooterN-texto
+					font-size 18px
+				.FooterN-description
+					font-size 18px
+@media screen and (min-width:845px)	
+	html
+		height auto
+		margin-left auto
+		margin-right auto
+		width 845px
+		body
+			width 845px
+			.MainMenu
+				width 200px
+			.Noticias
+				width 845px
+				text-align center
+				.Avatar-container
+					margin 0px 0px
+					width 845px
+					margin-right auto
+					margin-left auto
+					.Avatar-img
+						border 0px
+						width 260px
+						margin-right auto
+						margin-left auto
+			.Menu-noticias
+				width 845px
+				.Noticias-titulo
+					font-size 25px
+				.flex-container
+					width 845px
+					.flex-item
+						width 380px
+						.Link-item
+							padding-bottom 10px
+							figure
+								width 380px
+								margin 0px
+								img
+									width 100%
+						time
+							font-size 12px
+			.FooterN
+				width 845px
+				.FooterN-titulo
+					font-size 25px
+				.FooterN-texto
+					font-size 18px
+				.FooterN-description
+					font-size 18px
+@media screen and (min-width:901px)	
+	html
+		height auto
+		margin-left auto
+		margin-right auto
+		width 901px
+		body
+			width 901px
+			.MainMenu
+				width 200px
+			.Noticias
+				width 901px
+				text-align center
+				.Avatar-container
+					margin 0px 0px
+					width 901px
+					margin-right auto
+					margin-left auto
+					.Avatar-img
+						border 0px
+						width 260px
+						margin-right auto
+						margin-left auto
+			.Menu-noticias
+				width 901px
+				.Noticias-titulo
+					font-size 25px
+				.flex-container
+					width 901px
+					.flex-item
+						width 380px
+						.Link-item
+							padding-bottom 10px
+							figure
+								width 380px
+								margin 0px
+								img
+									width 100%
+						time
+							font-size 12px
+			.FooterN
+				width 901px
+				.FooterN-titulo
+					font-size 25px
+				.FooterN-texto
+					font-size 18px
+				.FooterN-description
+					font-size 18px
+@media screen and (min-width:999px)	
+	html
+		height auto
+		margin-left auto
+		margin-right auto
+		width 999px
+		body
+			width 999px
+			.MainMenu
+				width 200px
+			.Noticias
+				width 999px
+				text-align center
+				.Avatar-container
+					margin 0px 0px
+					width 999px
+					margin-right auto
+					margin-left auto
+					.Avatar-img
+						border 0px
+						width 260px
+						margin-right auto
+						margin-left auto
+			.Menu-noticias
+				width 999px
+				.Noticias-titulo
+					font-size 25px
+				.flex-container
+					width 999px
+					.flex-item
+						width 380px
+						.Link-item
+							padding-bottom 10px
+							figure
+								width 380px
+								margin 0px
+								img
+									width 100%
+						time
+							font-size 12px
+			.FooterN
+				width 999px
+				.FooterN-titulo
+					font-size 25px
+				.FooterN-texto
+					font-size 18px
+				.FooterN-description
+					font-size 18px
+@media screen and (min-width:1100px)
+	html
+		height auto
+		margin-left auto
+		margin-right auto
+		width 1100px
+		body
+			width 1100px
+			.MainMenu
+				width 200px
+			.Noticias
+				width 1100px
+				text-align center
+				.Avatar-container
+					margin 0px 0px
+					width 1100px
+					margin-right auto
+					margin-left auto
+					.Avatar-img
+						border 0px
+						width 260px
+						margin-right auto
+						margin-left auto
+			.Menu-noticias
+				width 1100px
+				.Noticias-titulo
+					font-size 25px
+				.flex-container
+					width 1100px
+					.flex-item
+						width 380px
+						.Link-item
+							padding-bottom 10px
+							figure
+								width 380px
+								margin 0px
+								img
+									width 100%
+						time
+							font-size 12px
+			.FooterN
+				width 1100px
+				.FooterN-titulo
+					font-size 25px
+				.FooterN-texto
+					font-size 18px
+				.FooterN-description
+					font-size 18px
+		nav.Canvas
+			margin-left auto
+			margin-right auto
+			width 1100px
+			.Header
+				ul#menu.MainMenu
+					height 50px
+					margin 0px
+					left auto
+					line-height 50px
+					position absolute
+					right 0px
+					top 0px
+					width auto
+					li.MainMenu-item
+						top 0px
+						padding 0px 8px
+						border 0px
+						margin 0px
+						display inline-block
+						a.MainMenu-link
+							top 0px		
+	    button#showMenu.Header-button.icon-Menu.is-active
+			display none
+			overflow hidden
+	    button#hideMenu.Header-button.icon-Menu.is-active
+			display none
+			overflow hidden
